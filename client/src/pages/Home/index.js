@@ -7,31 +7,14 @@ import axios from 'axios'
 
 export default function Home() {
 
-    let state = {
-        appid: "",
-        secret:""
-    }
+   const [html, setHtml] = useState({__html:""})
 
-    // async function CallDeezer(){
-    //   const DZ = window.DZ
-    //  let response = await DZ.init({
-    //     appId  : '651351',
-    //    channelUrl : 'http://localhost:3000/deezer.html'
-    //  })
-    //  console.log(response)
-    //  DZ.login(function(response) {
-
-    //     if (response.authResponse) {
-    //       console.log('Welcome!  Fetching your information.... ');
-    //       DZ.api('/user/me', function(response) {
-    //         console.log('Good to see you, ' + response.name + '.');
-    //       });
-    //     } else {
-    //       console.log('User cancelled login or did not fully authorize.');
-    //     }
-    //   }, {perms: 'basic_access,email'});
+    async function CallDeezer(){
+      let HTMLstring = await axios.get("http://localhost:3001/deez")
+      console.log(html)
+      setHtml({__html: HTMLstring.data})
        
-    // }
+    }
 
     
 
@@ -39,22 +22,7 @@ export default function Home() {
       
       CallDeezer()
    
-      // DZ.login(function(response) {
-      //   if (response.authResponse) {
-      //     console.log('Welcome!  Fetching your information.... ');
-      //     DZ.api('/user/me', function(response) {
-      //       console.log('Good to see you, ' + response.name + '.');
-      //     });
-      //   } else {
-      //     console.log('User cancelled login or did not fully authorize.');
-      //   }
-      // }, {perms: 'basic_access,email'});
-        
-    //   setState(state =>{
-    //      state.appid = process.env.REACT_APP_DEEZER_APPID,
-    //      state.secret=process.env.REACT_APP_DEEZER_SECRET
-    //   })
-      console.log(state)
+      
     
       
 
@@ -64,6 +32,8 @@ export default function Home() {
    
     
   return (
-    <div></div>
+    <div dangerouslySetInnerHTML={html}>
+     
+    </div>
   )
 }
