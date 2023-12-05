@@ -16,7 +16,7 @@ function App() {
     <NavBar/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/deezer/:code" element={<Deezer />} />
+        <Route path="/deezer" element={<Deezer />} />
       </Routes>
     </BrowserRouter>
     </Provider>
