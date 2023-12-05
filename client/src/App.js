@@ -3,12 +3,15 @@ import './App.css';
 import Home from './pages/Home';
 import Deezer from'./pages/Deezer'
 import { BrowserRouter, Route, Routes} from "react-router-dom";
+import {Provider} from 'react-redux'
 import NavBar from "./components/NavBar"
+import configureStore from "./store/configureStore"
 
 function App() {
+  const store = configureStore()
   return (
-    <div>
-      
+    
+      <Provider store={store}>
     <BrowserRouter>
     <NavBar/>
       <Routes>
@@ -16,7 +19,8 @@ function App() {
         <Route path="/deezer/:code" element={<Deezer />} />
       </Routes>
     </BrowserRouter>
-    </div>
+    </Provider>
+    
   );
 }
 
