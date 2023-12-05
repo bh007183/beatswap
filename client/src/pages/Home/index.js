@@ -9,22 +9,19 @@ export default function Home() {
 
    const [html, setHtml] = useState({__html:""})
 
+   //Deezer API Route To Initialize Deezer API Login
     async function CallDeezer(){
-      let HTMLstring = await axios.get("http://localhost:3001/deez")
-      console.log(html)
-      setHtml({__html: HTMLstring.data})
+      let {data} = await axios.get("http://localhost:3000/deezer/api")
+      window.location.href = data
        
-    }
+    };
 
-    
+
 
     useEffect(() => {
       
       CallDeezer()
    
-      
-    
-      
 
     }, [])
     
@@ -32,8 +29,8 @@ export default function Home() {
    
     
   return (
-    <div dangerouslySetInnerHTML={html}>
-     
+    <div>
+     test
     </div>
   )
 }

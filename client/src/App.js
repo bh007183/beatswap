@@ -13,7 +13,7 @@ function App() {
     <NavBar/>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/deezer" element={<Deezer />} /> */}
+        <Route path="/deezer/:code" element={<Deezer />} />
       </Routes>
     </BrowserRouter>
     </div>
