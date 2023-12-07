@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes} from "react-router-dom";
 import {Provider} from 'react-redux'
 import NavBar from "./components/NavBar"
 import configureStore from "./store/configureStore"
+import Spotify from './pages/Spotify';
 
 function App() {
   const store = configureStore()
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/deezer" element={<Deezer />} />
+        <Route path="/spotify" element={<Spotify />} />
       </Routes>
     </BrowserRouter>
     </Provider>
