@@ -2,6 +2,7 @@ import axios from 'axios'
 import express from 'express'
 import DeezerRoutes from "./Routes/Deezer/index.js"
 import SpotifyRoutes from "./Routes/Spotify/index.js"
+import cors from 'cors'
 
 import "dotenv/config.js";
 
@@ -10,7 +11,7 @@ var PORT = process.env.PORT || 3001;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
+app.use(cors())
 
 app.use(express.static("public"))
 

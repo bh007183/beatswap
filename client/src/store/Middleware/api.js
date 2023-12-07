@@ -1,7 +1,7 @@
 import * as actions from "../apiActions"
 import axios from "axios"
 export const api = ({dispatch}) => next => async action => {
-    if(action.type !== actions.apiStart.type) return next(action)
+    if(action.type !== actions.apiCallBegan.type) return next(action)
     next(action)
     const {url, method, headers, data, onSuccess, onError} = action.payload
     try{
@@ -13,11 +13,12 @@ export const api = ({dispatch}) => next => async action => {
             onSuccess,
             onError
         })
-        dispatch(actions.apiSuccess(response.data))
+        dispatch(actions.apiCallSuccess(response.data))
         if(onSuccess)dispatch({type: onSuccess, payload: response.data})
 
     }catch(error){
-        dispatch(actions.apiError(error.response.data))
+        console.log(error)
+        dispatch(actions.apiCallFailed(error.response.data))
         if(onError)dispatch({type: onError, payload: error.response.data})
 
     }

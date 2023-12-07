@@ -1,17 +1,27 @@
 import React, { useEffect } from 'react'
 import axios from 'axios'
+import { useParams } from 'react-router-dom'
+import { useDispatch, useSelector } from 'react-redux'
+import { getUsersData, addDeezerData, setDeezerError } from '../../store/deezerActions'
 export default function Deezer() {
 
+  const dispatch = useDispatch()
 
-    async function DeezerReroute(){
-    //   let data = await axios.get("http://localhost:3000/api/deezer")
+  const Error = useSelector((state) => state.Store.Deezer.error)
+
+    
+    // async function DeezerReroute(){
+    //   let id = window.location.href.split("=")[1]
+    //   let data = await axios.get("http://localhost:3001/deezer/" + id)
+
      
     //   console.log(data)
      
        
-    };
+    // };
     useEffect(() => {
-      DeezerReroute()
+      let id = window.location.href.split("=")[1]
+      dispatch(getUsersData(id))
     }, [])
     
   return (
