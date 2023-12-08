@@ -1,7 +1,8 @@
 import React from 'react'
 import { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux';
-import { getAccessToken, fetchProfile } from '../../store/spotifyActions';
+import { getAccessToken} from '../../store/spotifyActions';
+import { initSpotifyLogin } from './tools';
 
 export default function Spotify() {
 
@@ -30,14 +31,18 @@ let token = useSelector((state) => state.Store.Spotify.spotifyTokenData.access_t
     useEffect(() => {
       const params = new URLSearchParams(window.location.search);
     const code = params.get("code");
+    if (!code) {
+      initSpotifyLogin();
+      } else {
       
     dispatch(getAccessToken("29cca2853fe440a39cef14b5db0a9e44", code))
+      }
       
     }, [])
     
   return (
     <div>Spotify
-      <button onClick={e => dispatch(fetchProfile(token))}></button>
+      {/* <button onClick={e => dispatch(fetchProfile(token))}></button> */}
     </div>
   )
 }

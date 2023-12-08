@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { getUsersData, addDeezerData, setDeezerError } from '../../store/deezerActions'
+import { getUsersData, addDeezerData, setDeezerError , test} from '../../store/deezerActions'
 export default function Deezer() {
 
   const dispatch = useDispatch()

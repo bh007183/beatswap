@@ -26,12 +26,13 @@ export const slice = createSlice({
     initDeezerLogin: () =>{
       window.location.href = "https://connect.deezer.com/oauth/auth.php?app_id=651351&redirect_uri=http://localhost:3000/deezer&perms=basic_access,email,manage_library,delete_library"
     }
+  
 
   },
 })
 
 // Action creators are generated for each case reducer function
-export const { addDeezerData, setDeezerError,setDeezerSuccess, initDeezerLogin } = slice.actions
+export const { addDeezerData, setDeezerError,setDeezerSuccess, initDeezerLogin ,test} = slice.actions
 
 export default slice.reducer
 

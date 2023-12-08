@@ -20,7 +20,7 @@ export default function Home() {
 
     useEffect(() => {
 
-      initSpotifyLogin()
+      dispatch(initDeezerLogin())
     
     }, [])
     
