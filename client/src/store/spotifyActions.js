@@ -66,14 +66,20 @@ export const getAccessToken = (clientId, code) => apiCallBegan({
 
 
 
-export const fetchProfile = (token) => apiCallBegan({
+export const getProfile = (token) => apiCallBegan({
   url: "https://api.spotify.com/v1/me",
   method:"GET",
   headers: { Authorization: `Bearer ${token}`},
   onSuccess: setProfileData.type,
   onError: setSpotifyError.type
+})
 
-  
+export const getUsersPlaylists = (token) => apiCallBegan({
+  url: "https://api.spotify.com/v1/users/me/playlists?limit=50",
+  method:"GET",
+  headers: { Authorization: `Bearer ${token}`},
+  onSuccess: setProfileData.type,
+  onError: setSpotifyError.type
 })
 
 

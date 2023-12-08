@@ -3,15 +3,7 @@ import axios from "axios";
 const router = express.Router();
 import * as fs from 'fs'
 
-//Deezer API Route To Initialize Deezer API Login
-router.get("/api", async (req, res, next) => {
-  let data = await axios.get(
-    `https://connect.deezer.com/oauth/auth.php?app_id=651351&redirect_uri=http://localhost:3000/deezer&perms=basic_access,email,manage_library,delete_library`
-  );
-  console.log(data.config.url)
-  data ? res.status(200).json(data.config.url) : res.sendStatus(404);
 
-});
 
 
 //Route to authenticate user and see if they accept permission to access there data.
