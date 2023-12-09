@@ -1,14 +1,18 @@
 import React from "react";
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { getAccessToken } from "../../store/spotifyActions";
+import { getAccessToken, getUsersPlaylists, getUsersNextPlaylist } from "../../store/spotifyActions";
 import { initSpotifyLogin } from "./tools";
 import SearchPlaylists from "../../components/SpotifyComponenets/SearchPlaylists";
+import SearchTracks from "../../components/SpotifyComponenets/SearchTracks";
 
 export default function Spotify() {
   const dispatch = useDispatch();
 
-  let token = useSelector((state) => state.Store.Spotify.AccessToken);
+  let AccessToken = useSelector((state) => state.Store.Spotify.AccessToken);
+  let Playlists = useSelector(state => state.Store.Spotify.Playlists)
+  let DoneLoading = useSelector(state => state.Store.Spotify.DoneLoading)
+
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -20,10 +24,18 @@ export default function Spotify() {
     }
   }, []);
 
-  if(token){
-    return (
-      <SearchPlaylists/>
-    );
+
+  useEffect(() => {
+    
+  }, [DoneLoading])
+  
+
+
+  if(DoneLoading && AccessToken){
+    return <SearchTracks/>
+  }else if (AccessToken){
+    
+    return <SearchPlaylists/>
   }
 
 

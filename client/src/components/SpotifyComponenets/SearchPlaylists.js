@@ -4,11 +4,12 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useEffect } from 'react'
 export default function SearchPlaylists() {
     const dispatch = useDispatch()
-    const token = useSelector(state => state.Store.Spotify.AccessToken)
+    const AccessToken = useSelector(state => state.Store.Spotify.AccessToken)
+    const PlaylistsNextURL = useSelector(state => state.Store.Spotify.PlaylistsNextURL)
 
     useEffect(() => {
-     dispatch(getUsersPlaylistsSongs(token))
-    }, [])
+     dispatch(getUsersPlaylists(PlaylistsNextURL,AccessToken))
+    }, [PlaylistsNextURL])
     
   return (
     <div>SearchPlaylists</div>
