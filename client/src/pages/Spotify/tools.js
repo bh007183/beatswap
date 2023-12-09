@@ -1,14 +1,6 @@
 
 import { useSelector } from "react-redux";
-// export async function generateCodeChallenge(codeVerifier){
-//     const data = new TextEncoder().encode(codeVerifier);
-//       const digest = await window.crypto.subtle.digest('SHA-256', data);
-//       return String.fromCharCode.apply(null, [...new Uint8Array(digest)])
-//           .replace(/\+/g, '-')
-//           .replace(/\//g, '_')
-//           .replace(/=+$/, '');
-//   }
-
+import axios from "axios"
 export async function generateCodeChallenge(codeVerifier){
 
     const data = new TextEncoder().encode(codeVerifier);
@@ -50,6 +42,8 @@ export async function generateCodeChallenge(codeVerifier){
   
     }
 
+
+// spotifyApiDataCompilerLoop
  
   
   
