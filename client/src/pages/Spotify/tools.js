@@ -44,6 +44,62 @@ export async function generateCodeChallenge(codeVerifier){
 
 
 // spotifyApiDataCompilerLoop
+export async function spotifyGetSongsFromPlaylists(allPlaylists, token, counter){
  
-  
+
+//  let interval = setInterval(async () => {
+   let allSongsInAPlaylist = [];
+   if (counter < allPlaylists.length) {
+     if (counter === allPlaylists.length) {
+       console.log(allPlaylists)
+      
+     }
+     console.log(allPlaylists[counter].tracks.href);
+
+     try {
+       let songs = await axios({
+         url: allPlaylists[counter].tracks.href,
+         method: "GET",
+         headers: { Authorization: `Bearer ${token}` },
+       });
+       console.log(songs)
+       try {
+         while (allSongsInAPlaylist.length < songs.data.total) {
+           if (songs.data.next === null) {
+             allSongsInAPlaylist = [...allSongsInAPlaylist, ...songs.data.items];
+           } else {
+             let newSongs = await axios({
+               url: songs.data.next,
+               method: "GET",
+               headers: { Authorization: `Bearer ${token}` },
+             });
+             allSongsInAPlaylist = [...allSongsInAPlaylist, ...newSongs.data.items];
+             songs = newSongs;
+           }
+         }
+       } catch (err) {
+         console.log(err);
+       }
+       allPlaylists[counter]["songs"] = allSongsInAPlaylist
+       console.log(allSongsInAPlaylist);
+
+       // console.log(songs.data)
+     } catch (err) {
+       console.log(err);
+     }
+     counter++
+
+     setTimeout(() => {
+      spotifyGetSongsFromPlaylists(allPlaylists,token, counter++)
+     }, 5000);
+    
+     
+   }else{
+    return allPlaylists
+   }
+ 
+   
+//  }, 4000);
+ 
+}
   

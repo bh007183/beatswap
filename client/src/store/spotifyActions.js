@@ -2,6 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { apiCallBegan } from "./apiActions";
 import { SpotifyIterativeSlowed } from "../pages/Spotify/tools";
 import axios from "axios";
+import {spotifyGetSongsFromPlaylists} from "../pages/Spotify/tools"
 
 export const slice = createSlice({
   name: "Spotify",
@@ -100,56 +101,9 @@ export const getUsersPlaylistsSongs = createAsyncThunk(
     } catch (err) {
       console.log(err);
     }
-   console.log(allPlaylists);
-   
     let counter = 0;
-
-
-    let interval = setInterval(async () => {
-      let allSongs = [];
-      if (counter < allPlaylists.length) {
-        if (counter === allPlaylists.length) {
-          console.log(allPlaylists)
-          clearInterval(interval);
-          console.log(allPlaylists)
-        }
-        console.log(allPlaylists[counter].tracks.href);
-
-        try {
-          let songs = await axios({
-            url: allPlaylists[counter].tracks.href,
-            method: "GET",
-            headers: { Authorization: `Bearer ${token}` },
-          });
-          console.log(songs)
-          try {
-            while (allSongs.length < songs.data.total) {
-              if (songs.data.next === null) {
-                allSongs = [...allSongs, ...songs.data.items];
-              } else {
-                let newSongs = await axios({
-                  url: songs.data.next,
-                  method: "GET",
-                  headers: { Authorization: `Bearer ${token}` },
-                });
-                allSongs = [...allSongs, ...newSongs.data.items];
-                songs = newSongs;
-              }
-            }
-          } catch (err) {
-            console.log(err);
-          }
-          allPlaylists[counter]["songs"] = allSongs
-          console.log(allSongs);
-
-          // console.log(songs.data)
-        } catch (err) {
-          console.log(err);
-        }
-      }
-    counter++
-      
-    }, 4000);
-    console.log(allPlaylists)
+   
+   console.log(spotifyGetSongsFromPlaylists(allPlaylists,token, counter))
+ 
   }
 );
