@@ -43,21 +43,23 @@ export const slice = createSlice({
         Spotify.PlaylistsNextURL = action.payload.next
       }else{
         Spotify.DoneLoading = true
-        Spotify.TracksNextURL = Spotify.Playlists[0].href
       }
       
     },
     setTracks:(Spotify, action) => {
-
-      Spotify.PlaylistsWTracks = [...Spotify.PlaylistsWTracks, ...action.payload]
-      if(action.payload.next !== null){
-        Spotify.PlaylistsNextURL = action.payload.next
+      let obj = {
+        name:action.payload.name,
+        tracks: action.payload.tracks.items
       }
-
-      Spotify.TracksNextURL = action.payload.next
+      console.log(action.payload)
+      Spotify.PlaylistsWTracks = [...Spotify.PlaylistsWTracks, obj]
+      if(action.payload.tracks.next !== null){
+        Spotify.TracksNextURL = action.payload.tracks.next
+      }
       
     }
-  }
+  },
+
 });
 export const {
   setSpotifyPlaylists,
@@ -102,5 +104,6 @@ export const getAccessToken = (clientId, code) =>
     onError: setSpotifyError.type
   })
 
+  
 
 //if 429  error then hit to many api requests and return header should have a Retry-After value.

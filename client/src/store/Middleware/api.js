@@ -17,7 +17,7 @@ export const api = ({dispatch}) => next => async action => {
         if(onSuccess)dispatch({type: onSuccess, payload: response.data})
 
     }catch(error){
-        console.log(error)
+        console.log(error.response)
         dispatch(actions.apiCallFailed(error.response.data))
         if(onError)dispatch({type: onError, payload: error.response.data})
 

@@ -40,53 +40,53 @@ export async function initSpotifyLogin() {
 }
 
 // spotifyApiDataCompilerLoop
-// export async function spotifyGetSongsFromPlaylists(
-//   allPlaylists,
-//   token,
-//   counter
-// ) {
-//   let allSongsInAPlaylist = [];
+export async function spotifyGetSongsFromPlaylists(
+  allPlaylists,
+  token,
+  counter
+) {
+  let allSongsInAPlaylist = [];
 
-//   if (counter < allPlaylists.length) {
-//     try {
-//       let songs = await axios({
-//         url: allPlaylists[counter].tracks.href,
-//         method: "GET",
-//         headers: { Authorization: `Bearer ${token}` },
-//       });
-//       console.log(songs);
-//       try {
-//         while (allSongsInAPlaylist.length < songs.data.total) {
-//           if (songs.data.next === null) {
-//             allSongsInAPlaylist = [...allSongsInAPlaylist, ...songs.data.items];
-//           } else {
-//             let newSongs = await axios({
-//               url: songs.data.next,
-//               method: "GET",
-//               headers: { Authorization: `Bearer ${token}` },
-//             });
-//             allSongsInAPlaylist = [
-//               ...allSongsInAPlaylist,
-//               ...newSongs.data.items,
-//             ];
-//             songs = newSongs;
-//           }
-//         }
-//       } catch (err) {
-//         console.log(err);
-//       }
-//       allPlaylists[counter]["songs"] = allSongsInAPlaylist;
-//       console.log(allSongsInAPlaylist);
-//       console.log(allPlaylists)
+  if (counter < allPlaylists.length) {
+    try {
+      let songs = await axios({
+        url: allPlaylists[counter].href,
+        method: "GET",
+        headers: { Authorization: `Bearer ${token}` },
+      });
+      console.log(songs);
+      // try {
+      //   while (allSongsInAPlaylist.length < songs.data.total) {
+      //     if (songs.data.next === null) {
+      //       allSongsInAPlaylist = [...allSongsInAPlaylist, ...songs.data.items];
+      //     } else {
+      //       let newSongs = await axios({
+      //         url: songs.data.next,
+      //         method: "GET",
+      //         headers: { Authorization: `Bearer ${token}` },
+      //       });
+      //       allSongsInAPlaylist = [
+      //         ...allSongsInAPlaylist,
+      //         ...newSongs.data.items,
+      //       ];
+      //       songs = newSongs;
+      //     }
+      //   }
+      // } catch (err) {
+      //   console.log(err);
+      // }
+      // allPlaylists[counter]["songs"] = allSongsInAPlaylist;
+      // console.log(allSongsInAPlaylist);
+      
 
-//     } catch (err) {
-//       console.log(err);
-//     }
-//     counter++;
-//     // setTimeout(() => {
-//       spotifyGetSongsFromPlaylists(allPlaylists, token, counter);
-//     // }, 5000);
-//   } 
-//     return allPlaylists;
+    } catch (err) {
+      console.log(err);
+    }
+    counter++;
+    // setTimeout(() => {
+      spotifyGetSongsFromPlaylists(allPlaylists, token, counter);
+    // }, 5000);
+  } 
+    return allPlaylists;
   
-// }
+}

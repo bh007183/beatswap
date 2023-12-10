@@ -31,9 +31,7 @@ export default function Spotify() {
   
 
 
-  if(DoneLoading && AccessToken){
-    return <SearchTracks/>
-  }else if (AccessToken){
+ if (AccessToken){
     
     return <SearchPlaylists/>
   }
