@@ -38,7 +38,8 @@ export const slice = createSlice({
     },
 
     setPlaylists: (Spotify, action) => {
-      Spotify.Playlists = [...Spotify.Playlists, ...action.payload.items]
+      let data = action.payload.items.map((v,i) => {return {name: v.name, href: v.href, total: v.tracks.total}})
+      Spotify.Playlists = [...Spotify.Playlists, ...data]
       if(action.payload.next !== null){
         Spotify.PlaylistsNextURL = action.payload.next
       }else{
@@ -97,6 +98,15 @@ export const getAccessToken = (clientId, code) =>
   })
 
   export const getUsersPlaylistsTracks = (url,token) => apiCallBegan({
+    url,
+    method: "GET",
+    headers: { Authorization: `Bearer ${token}` },
+    onSuccess: setTracks.type,
+    onError: setSpotifyError.type
+  })
+
+  //https://api.spotify.com/v1/me/playlists
+  export const createPlaylists = (url,token) => apiCallBegan({
     url,
     method: "GET",
     headers: { Authorization: `Bearer ${token}` },

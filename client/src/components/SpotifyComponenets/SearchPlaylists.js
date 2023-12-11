@@ -19,6 +19,7 @@ export default function SearchPlaylists() {
     }, [PlaylistsNextURL])
     
   return (
+    
     <div>{Playlists.map((v,i) => <SearchTracks playlist={v} key={i}/>)}</div>
   )
 }
