@@ -10,13 +10,11 @@ import { spotifyGetSongsFromPlaylists } from '../../pages/Spotify/tools'
 export default function SearchTracks({playlist}) {
     const dispatch = useDispatch()
     const AccessToken = useSelector(state => state.Store.Spotify.AccessToken)
-    const Index = useSelector(state => state.Store.Spotify.Index)
-    const TracksNextURL = useSelector(state => state.Store.Spotify.TracksNextURL)
     const Playlists = useSelector(state => state.Store.Spotify.Playlists)
     useEffect(() => {
       
     
-      dispatch(getUsersPlaylistsTracks(playlist.href, AccessToken))
+      dispatch(getUsersPlaylistsTracks(AccessToken, Playlists))
       
       
     }, [])

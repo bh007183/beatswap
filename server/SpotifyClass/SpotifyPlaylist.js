@@ -1,8 +1,9 @@
 import axios from "axios";
 
-export default class Spotify {
+export default class SpotifyPlaylist {
   constructor(authorization) {
     this.playlistData = [];
+    this.trackData = []
     this.authorization = authorization;
     this.counter = 0
   }
@@ -28,8 +29,6 @@ export default class Spotify {
     }
   }
   get playlists() {
-    console.log(this.counter)
-    console.log(this.playlistData.length);
     return this.playlistData;
   }
 }

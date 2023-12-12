@@ -6,7 +6,6 @@ import SearchTracks from './SearchTracks'
 export default function SearchPlaylists() {
     const dispatch = useDispatch()
     const AccessToken = useSelector(state => state.Store.Spotify.AccessToken)
-    const PlaylistsNextURL = useSelector(state => state.Store.Spotify.PlaylistsNextURL)
     const Playlists = useSelector(state => state.Store.Spotify.Playlists)
 
     useEffect(() => {
@@ -16,7 +15,7 @@ export default function SearchPlaylists() {
         console.log(err)
       }
      
-    }, [PlaylistsNextURL])
+    }, [])
     
   return (
     <></>

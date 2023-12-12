@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { getAccessToken, getUsersPlaylists, getUsersNextPlaylist } from "../../store/spotifyActions";
+import { getAccessToken, getUsersPlaylistsTracks,  } from "../../store/spotifyActions";
 import { initSpotifyLogin } from "./tools";
 import SearchPlaylists from "../../components/SpotifyComponenets/SearchPlaylists";
 import SearchTracks from "../../components/SpotifyComponenets/SearchTracks";
@@ -11,7 +11,8 @@ export default function Spotify() {
 
   let AccessToken = useSelector((state) => state.Store.Spotify.AccessToken);
   let Playlists = useSelector(state => state.Store.Spotify.Playlists)
-  let DoneLoading = useSelector(state => state.Store.Spotify.DoneLoading)
+
+
 
 
   useEffect(() => {
@@ -25,9 +26,11 @@ export default function Spotify() {
   }, []);
 
 
-  // useEffect(() => {
+  useEffect(() => {
     
-  // }, [DoneLoading])
+  
+    
+  }, [Playlists])
   
 
 

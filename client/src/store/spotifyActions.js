@@ -7,15 +7,12 @@ import {spotifyGetSongsFromPlaylists} from "../pages/Spotify/tools"
 export const slice = createSlice({
   name: "Spotify",
   initialState: {
-    Index: 0,
     Code: undefined,
     Error: "",
     AccessToken: undefined,
     DoneLoading: false,
     Playlists: [],
-    PlaylistsWTracks:[],
-    PlaylistsNextURL: "https://api.spotify.com/v1/me/playlists?limit=50",
-    TracksNextURL: null
+  
   },
   reducers: {
     setSpotifyPlaylists: (Spotify, action) => {
@@ -38,10 +35,7 @@ export const slice = createSlice({
     },
 
     setPlaylists: (Spotify, action) => {
-
-      console.log(action.payload)
       Spotify.Playlists = action.payload
-      
     },
     setTracks:(Spotify, action) => {
       let obj = {
@@ -94,10 +88,11 @@ export const getAccessToken = (clientId, code) =>
     onError: setSpotifyError.type
   })
 
-  export const getUsersPlaylistsTracks = (url,token) => apiCallBegan({
-    url,
-    method: "GET",
+  export const getUsersPlaylistsTracks = (token, playlists) => apiCallBegan({
+    url: "http://localhost:3001/api/spotify/playlists/tracks",
+    method: "POST",
     headers: { Authorization: `Bearer ${token}` },
+    data: playlists,
     onSuccess: setTracks.type,
     onError: setSpotifyError.type
   })

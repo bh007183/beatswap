@@ -39,54 +39,6 @@ export async function initSpotifyLogin() {
   document.location = `https://accounts.spotify.com/authorize?${params.toString()}`;
 }
 
-// spotifyApiDataCompilerLoop
-export async function spotifyGetSongsFromPlaylists(
-  allPlaylists,
-  token,
-  counter
-) {
-  let allSongsInAPlaylist = [];
 
-  if (counter < allPlaylists.length) {
-    try {
-      let songs = await axios({
-        url: allPlaylists[counter].href,
-        method: "GET",
-        headers: { Authorization: `Bearer ${token}` },
-      });
-      console.log(songs);
-      // try {
-      //   while (allSongsInAPlaylist.length < songs.data.total) {
-      //     if (songs.data.next === null) {
-      //       allSongsInAPlaylist = [...allSongsInAPlaylist, ...songs.data.items];
-      //     } else {
-      //       let newSongs = await axios({
-      //         url: songs.data.next,
-      //         method: "GET",
-      //         headers: { Authorization: `Bearer ${token}` },
-      //       });
-      //       allSongsInAPlaylist = [
-      //         ...allSongsInAPlaylist,
-      //         ...newSongs.data.items,
-      //       ];
-      //       songs = newSongs;
-      //     }
-      //   }
-      // } catch (err) {
-      //   console.log(err);
-      // }
-      // allPlaylists[counter]["songs"] = allSongsInAPlaylist;
-      // console.log(allSongsInAPlaylist);
-      
-
-    } catch (err) {
-      console.log(err);
-    }
-    counter++;
-    // setTimeout(() => {
-      spotifyGetSongsFromPlaylists(allPlaylists, token, counter);
-    // }, 5000);
-  } 
-    return allPlaylists;
   
-}
+
