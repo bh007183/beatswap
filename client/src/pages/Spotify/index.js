@@ -25,9 +25,9 @@ export default function Spotify() {
   }, []);
 
 
-  useEffect(() => {
+  // useEffect(() => {
     
-  }, [DoneLoading])
+  // }, [DoneLoading])
   
 
 

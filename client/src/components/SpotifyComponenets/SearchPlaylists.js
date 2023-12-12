@@ -11,7 +11,7 @@ export default function SearchPlaylists() {
 
     useEffect(() => {
       try{
-        dispatch(getUsersPlaylists(PlaylistsNextURL,AccessToken))
+        dispatch(getUsersPlaylists(AccessToken))
       }catch(err){
         console.log(err)
       }
@@ -19,7 +19,7 @@ export default function SearchPlaylists() {
     }, [PlaylistsNextURL])
     
   return (
-    
-    <div>{Playlists.map((v,i) => <SearchTracks playlist={v} key={i}/>)}</div>
+    <></>
+    // <div>{Playlists.map((v,i) => <SearchTracks playlist={v} key={i}/>)}</div>
   )
 }

@@ -38,13 +38,9 @@ export const slice = createSlice({
     },
 
     setPlaylists: (Spotify, action) => {
-      let data = action.payload.items.map((v,i) => {return {name: v.name, href: v.href, total: v.tracks.total}})
-      Spotify.Playlists = [...Spotify.Playlists, ...data]
-      if(action.payload.next !== null){
-        Spotify.PlaylistsNextURL = action.payload.next
-      }else{
-        Spotify.DoneLoading = true
-      }
+
+      console.log(action.payload)
+      Spotify.Playlists = action.payload
       
     },
     setTracks:(Spotify, action) => {
@@ -75,7 +71,8 @@ export default slice.reducer;
 
 export const getAccessToken = (clientId, code) =>
   apiCallBegan({
-    url: "https://accounts.spotify.com/api/token",
+    
+    url: "http://localhost:3001/api/spotify/codeverifyer",
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     data: {
@@ -89,8 +86,8 @@ export const getAccessToken = (clientId, code) =>
     onError: setSpotifyError.type,
   });
 
-  export const getUsersPlaylists = (url,token) => apiCallBegan({
-    url,
+  export const getUsersPlaylists = (token) => apiCallBegan({
+    url: "http://localhost:3001/api/spotify/playlists",
     method: "GET",
     headers: { Authorization: `Bearer ${token}` },
     onSuccess: setPlaylists.type,

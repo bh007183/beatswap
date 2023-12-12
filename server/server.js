@@ -1,7 +1,7 @@
 import axios from 'axios'
 import express from 'express'
 import DeezerRoutes from "./Routes/Deezer/index.js"
-import SpotifyRoutes from "./Routes/Spotify/index.js"
+import SpotifyRoutes from "./Routes/index.js"
 import cors from 'cors'
 
 import "dotenv/config.js";
@@ -17,7 +17,7 @@ app.use(express.static("public"))
 
 //API Routes
 app.use("/deezer", DeezerRoutes)
-app.use("/spotify", SpotifyRoutes)
+app.use("/api", SpotifyRoutes)
 
 app.listen(PORT, function () {
     console.log("App listening on PORT http://localhost:" + PORT);
