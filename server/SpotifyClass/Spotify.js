@@ -1,37 +1,35 @@
-import axios from "axios"
+import axios from "axios";
 
 export default class Spotify {
+  constructor(authorization) {
+    this.playlistData = [];
+    this.authorization = authorization;
+    this.counter = 0
+  }
 
-
-    constructor(playlistData, authorization){
-        this.playlistData = playlistData
-        this.authorization = authorization
-        this.playlists = []
+  async setPlaylists(initData) {
+    this.counter ++
+    this.playlistData = [...this.playlistData, ...initData.items];
+    try {
+      if (initData.next) {
+        let { data } = await axios({
+          url: initData.next,
+          method: "GET",
+          headers: {
+            Authorization: this.authorization,
+          },
+        });
+        return await this.setPlaylists(data);
+      }
+   
+    } catch (err) {
+      console.log(err);
+      throw err;
     }
-
-    async GetOtherPlaylists(){
-
-        this.playlists = [...this.playlists, ...this.playlistData.items]
-        if(this.playlistData.next){
-            
-            let {data} = await axios({
-                url: this.playlistData.next,
-                method: "GET",
-                headers: {
-                    Authorization: this.authorization
-                }
-            })
-            // this.playlists = [...this.playlists, ...data.items]
-            this.playlistData = data
-            await this.GetOtherPlaylists()
-        }else{
-            
-            return this.playlists
-        }
-      
-        
-        
-        
-    } 
-    
+  }
+  get playlists() {
+    console.log(this.counter)
+    console.log(this.playlistData.length);
+    return this.playlistData;
+  }
 }
