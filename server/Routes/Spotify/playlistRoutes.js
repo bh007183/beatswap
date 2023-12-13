@@ -13,32 +13,37 @@ router.get("/", async (req, res) => {
         Authorization: req.headers.authorization,
       },
     });
-    let spotifyPlaylist = new SpotifyPlaylist(req.headers.authorization);
+    let spotifyPlaylists = new SpotifyPlaylist(req.headers.authorization);
+    await spotifyPlaylists.setPlaylists(data);
+  //////////////////////////////////////////////////////////////////////
+  //FOR EACH PLAYLIST GET THE TRACKS//
+   
+    let playlistsWithSongs = []
+    for(const v of spotifyPlaylists.playlists){
+      let spotifyTracks = new SpotifyTracks(req.headers.authorization, v.name)
+      let trackData = await axios({
+         url: v.tracks.href + "?fields=next,total,items(track(album(name))),items(track(artists(name))),items(track(external_ids)),items(track(name))",
+         method: "GET",
+         headers: {
+           Authorization: req.headers.authorization,
+         },
+       })
+       await spotifyTracks.setTracks(trackData.data)
+       playlistsWithSongs.push(spotifyTracks)
+    }
+    console.log(playlistsWithSongs)
 
-    await spotifyPlaylist.setPlaylists(data);
-
-
-   axios({
-      url: spotifyPlaylist.playlists[11].href,
-      method: "GET",
-      headers: {
-        Authorization: req.headers.authorization,
-      },
-    }).then(({data}) => {
      
 
-
-      let spotifyTracks = new SpotifyTracks(req.headers.authorization)
+    
       
-      console.log(data)
-  
-  
-      spotifyTracks.setTracks(data)
-      console.log(spotifyTracks.tracks)
-    });
+     
+    
+      // console.log(spotifyTracks.tracks)
+    
 
   
-    // res.json(spotify.playlists);
+    res.json(playlistsWithSongs);
 
    
 

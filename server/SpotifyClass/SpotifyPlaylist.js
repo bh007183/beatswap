@@ -1,11 +1,10 @@
 import axios from "axios";
 
 export default class SpotifyPlaylist {
+  #authorization;
   constructor(authorization) {
     this.playlistData = [];
-    this.trackData = []
-    this.authorization = authorization;
-    this.counter = 0
+    this.#authorization = authorization;
   }
 
   async setPlaylists(initData) {
@@ -17,7 +16,7 @@ export default class SpotifyPlaylist {
           url: initData.next,
           method: "GET",
           headers: {
-            Authorization: this.authorization,
+            Authorization: this.#authorization,
           },
         });
         return await this.setPlaylists(data);
