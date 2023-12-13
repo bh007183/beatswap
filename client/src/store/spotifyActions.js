@@ -81,21 +81,14 @@ export const getAccessToken = (clientId, code) =>
   });
 
   export const getUsersPlaylists = (token) => apiCallBegan({
-    url: "http://localhost:3001/api/spotify/playlists",
+    url: "http://localhost:3001/api/spotify/get",
     method: "GET",
     headers: { Authorization: `Bearer ${token}` },
     onSuccess: setPlaylists.type,
     onError: setSpotifyError.type
   })
 
-  export const getUsersPlaylistsTracks = (token, playlists) => apiCallBegan({
-    url: "http://localhost:3001/api/spotify/playlists/tracks",
-    method: "POST",
-    headers: { Authorization: `Bearer ${token}` },
-    data: playlists,
-    onSuccess: setTracks.type,
-    onError: setSpotifyError.type
-  })
+  
 
   //https://api.spotify.com/v1/me/playlists
   export const createPlaylists = (url,token) => apiCallBegan({

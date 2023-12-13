@@ -4,6 +4,7 @@ import { apiCallBegan } from "./apiActions";
 export const slice = createSlice({
   name: 'Deezer',
   initialState: {
+    accessToken:"",
     deezerData:[],
     error: "",
     success:""
@@ -12,7 +13,8 @@ export const slice = createSlice({
     
     addDeezerData: (Deezer, action) => {
       console.log(action)
-      Deezer.deezerData = action.payload
+      Deezer.deezerData = action.payload.combinedData
+      Deezer.accessToken = action.payload.accessToken
     },
 
     setDeezerError: (Deezer, action) => {
@@ -35,13 +37,21 @@ export const slice = createSlice({
 export const { addDeezerData, setDeezerError,setDeezerSuccess, initDeezerLogin ,test} = slice.actions
 
 export default slice.reducer
-
+// Only Call if transfering data from other service
 export const getUsersData = (id) => apiCallBegan({
-    url: "http://localhost:3001/deezer/" + id,
+    url: "http://localhost:3001/deezer/get/" + id,
     method: "GET",
     onSuccess: addDeezerData.type,
     onError: setDeezerError.type
   })
+
+export const postDeezer = (data) => apiCallBegan({
+  url: "http://localhost:3001/deezer/post",
+  method: "POST",
+  data,
+  onSuccess: addDeezerData.type,
+  onError: setDeezerError.type
+})
 
  
 

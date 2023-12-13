@@ -1,10 +1,10 @@
 import React from "react";
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { getAccessToken, getUsersPlaylistsTracks,  } from "../../store/spotifyActions";
+import { getAccessToken} from "../../store/spotifyActions";
 import { initSpotifyLogin } from "./tools";
 import SearchPlaylists from "../../components/SpotifyComponenets/SearchPlaylists";
-import SearchTracks from "../../components/SpotifyComponenets/SearchTracks";
+
 
 export default function Spotify() {
   const dispatch = useDispatch();
@@ -26,11 +26,6 @@ export default function Spotify() {
   }, []);
 
 
-  useEffect(() => {
-    
-  
-    
-  }, [Playlists])
   
 
 

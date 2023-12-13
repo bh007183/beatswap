@@ -16,7 +16,8 @@ router.get("/", async (req, res) => {
     let spotifyPlaylists = new SpotifyPlaylist(req.headers.authorization);
     await spotifyPlaylists.setPlaylists(data);
   //////////////////////////////////////////////////////////////////////
-  //FOR EACH PLAYLIST GET THE TRACKS//
+  //FOR EACH PLAYLIST GET THE TRACKS AND PUSH RESULTS INTO PLAYLISTSWITHSONGS
+  //THEN RETURN PLAYLISTS WITH SONGS
    
     let playlistsWithSongs = []
     for(const v of spotifyPlaylists.playlists){
@@ -31,22 +32,7 @@ router.get("/", async (req, res) => {
        await spotifyTracks.setTracks(trackData.data)
        playlistsWithSongs.push(spotifyTracks)
     }
-    console.log(playlistsWithSongs)
-
-     
-
-    
-      
-     
-    
-      // console.log(spotifyTracks.tracks)
-    
-
-  
     res.json(playlistsWithSongs);
-
-   
-
   } catch (err) {
     console.log(err);
     res.json(err);
