@@ -45,10 +45,11 @@ export const getUsersData = (id) => apiCallBegan({
     onError: setDeezerError.type
   })
 
-export const postDeezer = (data) => apiCallBegan({
+export const postDeezer = (data, accessToken) => apiCallBegan({
   url: "http://localhost:3001/deezer/post",
   method: "POST",
   data,
+  headers: { Authorization: `Bearer ${accessToken}` },
   onSuccess: addDeezerData.type,
   onError: setDeezerError.type
 })

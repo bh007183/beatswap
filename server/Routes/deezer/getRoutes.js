@@ -24,14 +24,16 @@ router.get("/:code", async (req, res) => {
   
     let combinedData = playlists.map((v, i) => {
       return {
-        title: v.data.title,
+        playlistName: v.data.title,
         nb_tracks: v.data.nb_tracks,
-        songs: v.data.tracks.data.map((v, i) => {
+        trackData: v.data.tracks.data.map((v, i) => {
           return {
-            title: v.title,
+            name: v.title,
             titleShort: v.title_short,
-            artist: v.artist.name,
-            album: v.album.title,
+            artists: [v.artist.name],
+            album:{
+                name: v.album.title
+            } ,
           };
         }),
       };

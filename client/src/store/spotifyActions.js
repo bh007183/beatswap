@@ -1,8 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { apiCallBegan } from "./apiActions";
-import { SpotifyIterativeSlowed } from "../pages/Spotify/tools";
-import axios from "axios";
-import {spotifyGetSongsFromPlaylists} from "../pages/Spotify/tools"
+
 
 export const slice = createSlice({
   name: "Spotify",
@@ -36,6 +34,8 @@ export const slice = createSlice({
 
     setPlaylists: (Spotify, action) => {
       Spotify.Playlists = action.payload
+      
+      
     },
     setTracks:(Spotify, action) => {
       let obj = {

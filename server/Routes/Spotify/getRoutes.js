@@ -2,6 +2,7 @@ import express from "express";
 import axios from "axios";
 import SpotifyPlaylist from "../../SpotifyClass/SpotifyPlaylist.js";
 import SpotifyTracks from "../../SpotifyClass/SpotifyTracks.js";
+import * as fs from "fs"
 const router = express.Router();
 
 router.get("/", async (req, res) => {
@@ -32,6 +33,7 @@ router.get("/", async (req, res) => {
        await spotifyTracks.setTracks(trackData.data)
        playlistsWithSongs.push(spotifyTracks)
     }
+    // fs.writeFileSync("./spotifyData.json",JSON.stringify(playlistsWithSongs))
     res.json(playlistsWithSongs);
   } catch (err) {
     console.log(err);

@@ -12,3 +12,11 @@ router.use("/get", spotifyPlaylists)
 
 
 export default router
+
+// let result = await axios.get({
+//     url: `https://api.spotify.com/v1/search?q=artist%${song.track.artists[0].name}album%${song.track.album.name}track%${song.track.name}`,
+//     method: "GET",
+//     // headers: {
+//     //     Authorization: this.authorization,
+//     //   },
+//   });
