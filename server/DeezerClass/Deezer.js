@@ -8,7 +8,7 @@ export default class Deezer {
     this.authorization = "frTP071SMOrDrQ7t9MiXMs0ZfgFZNL1y5PfRvDm8nvbuXpQFN5t";
   }
 //Searches Deezer Library for spotify matching track
-  async searchForTracks() {
+  async searchDeezerForTracks() {
 
     try {
       //this.spotifyData
@@ -80,4 +80,4 @@ export default class Deezer {
 
 }
 
- new Deezer().searchData()
+ new Deezer().searchDeezerForTracks()

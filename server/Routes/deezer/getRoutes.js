@@ -38,6 +38,8 @@ router.get("/:code", async (req, res) => {
         }),
       };
     });
+
+    fs.writeFileSync("./deezerData.json", JSON.stringify(combinedData))
   
     res.json({combinedData, accessToken:accessTokenObj.data.access_token});
   }catch(err){

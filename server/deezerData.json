@@ -1,0 +1,2797 @@
+[
+  {
+    "playlistName": "21 Pliots",
+    "nb_tracks": 21,
+    "trackData": [
+      {
+        "name": "Hometown",
+        "titleShort": "Hometown",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Blurryface" }
+      },
+      {
+        "name": "Trees",
+        "titleShort": "Trees",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Vessel" }
+      },
+      {
+        "name": "Screen",
+        "titleShort": "Screen",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Vessel" }
+      },
+      {
+        "name": "Guns for Hands",
+        "titleShort": "Guns for Hands",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Vessel" }
+      },
+      {
+        "name": "Migraine",
+        "titleShort": "Migraine",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Vessel" }
+      },
+      {
+        "name": "Fake You Out",
+        "titleShort": "Fake You Out",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Vessel" }
+      },
+      {
+        "name": "Semi-Automatic",
+        "titleShort": "Semi-Automatic",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Vessel" }
+      },
+      {
+        "name": "Holding on to You",
+        "titleShort": "Holding on to You",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Vessel" }
+      },
+      {
+        "name": "Fairly Local",
+        "titleShort": "Fairly Local",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Blurryface" }
+      },
+      {
+        "name": "Tear in My Heart",
+        "titleShort": "Tear in My Heart",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Blurryface" }
+      },
+      {
+        "name": "Lane Boy",
+        "titleShort": "Lane Boy",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Blurryface" }
+      },
+      {
+        "name": "Doubt",
+        "titleShort": "Doubt",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Blurryface" }
+      },
+      {
+        "name": "Polarize",
+        "titleShort": "Polarize",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Blurryface" }
+      },
+      {
+        "name": "Message Man",
+        "titleShort": "Message Man",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Blurryface" }
+      },
+      {
+        "name": "Not Today",
+        "titleShort": "Not Today",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Blurryface" }
+      },
+      {
+        "name": "The Judge",
+        "titleShort": "The Judge",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Blurryface" }
+      },
+      {
+        "name": "Ride",
+        "titleShort": "Ride",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Blurryface" }
+      },
+      {
+        "name": "Heavydirtysoul",
+        "titleShort": "Heavydirtysoul",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Blurryface" }
+      },
+      {
+        "name": "Car Radio",
+        "titleShort": "Car Radio",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Vessel" }
+      },
+      {
+        "name": "Stressed Out",
+        "titleShort": "Stressed Out",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Stressed Out" }
+      },
+      {
+        "name": "Ode to Sleep",
+        "titleShort": "Ode to Sleep",
+        "artists": ["Twenty One Pilots"],
+        "album": { "name": "Vessel" }
+      }
+    ]
+  },
+  {
+    "playlistName": "Arabic",
+    "nb_tracks": 3,
+    "trackData": [
+      {
+        "name": "Bent Al Akaber",
+        "titleShort": "Bent Al Akaber",
+        "artists": ["Rabih Al Asmar"],
+        "album": { "name": "Mestanfer" }
+      },
+      {
+        "name": "Vaziyetler",
+        "titleShort": "Vaziyetler",
+        "artists": ["Sıla"],
+        "album": { "name": "Yeni Ay" }
+      },
+      {
+        "name": "Karmalak",
+        "titleShort": "Karmalak",
+        "artists": ["Ayman Zbib"],
+        "album": { "name": "Hulft Bi Omri" }
+      }
+    ]
+  },
+  { "playlistName": "Ben’s Favorite Folk", "nb_tracks": 0, "trackData": [] },
+  {
+    "playlistName": "Country",
+    "nb_tracks": 1,
+    "trackData": [
+      {
+        "name": "I Should Have Married You",
+        "titleShort": "I Should Have Married You",
+        "artists": ["Old Dominion"],
+        "album": { "name": "I Should Have Married You" }
+      }
+    ]
+  },
+  {
+    "playlistName": "eminem",
+    "nb_tracks": 8,
+    "trackData": [
+      {
+        "name": "Stepping Stone",
+        "titleShort": "Stepping Stone",
+        "artists": ["Eminem"],
+        "album": { "name": "Kamikaze" }
+      },
+      {
+        "name": "Fall",
+        "titleShort": "Fall",
+        "artists": ["Eminem"],
+        "album": { "name": "Kamikaze" }
+      },
+      {
+        "name": "Till I Collapse",
+        "titleShort": "Till I Collapse",
+        "artists": ["Eminem"],
+        "album": { "name": "The Eminem Show" }
+      },
+      {
+        "name": "The Real Slim Shady",
+        "titleShort": "The Real Slim Shady",
+        "artists": ["Eminem"],
+        "album": { "name": "The Marshall Mathers LP" }
+      },
+      {
+        "name": "Mockingbird",
+        "titleShort": "Mockingbird",
+        "artists": ["Eminem"],
+        "album": { "name": "Curtain Call: The Hits (Deluxe Edition)" }
+      },
+      {
+        "name": "Going Through Changes",
+        "titleShort": "Going Through Changes",
+        "artists": ["Eminem"],
+        "album": { "name": "Recovery" }
+      },
+      {
+        "name": "Stronger Than I Was",
+        "titleShort": "Stronger Than I Was",
+        "artists": ["Eminem"],
+        "album": { "name": "The Marshall Mathers LP2 (Deluxe)" }
+      },
+      {
+        "name": "The Way I Am",
+        "titleShort": "The Way I Am",
+        "artists": ["Eminem"],
+        "album": { "name": "The Marshall Mathers LP" }
+      }
+    ]
+  },
+  {
+    "playlistName": "Enclosed by you",
+    "nb_tracks": 4,
+    "trackData": [
+      {
+        "name": "Turn Your Eyes",
+        "titleShort": "Turn Your Eyes",
+        "artists": ["The Banner Days"],
+        "album": { "name": "Hand Me a Hymnal" }
+      },
+      {
+        "name": "Rock of Ages",
+        "titleShort": "Rock of Ages",
+        "artists": ["The Banner Days"],
+        "album": { "name": "Hand Me a Hymnal" }
+      },
+      {
+        "name": "I Need Thee Every Hour",
+        "titleShort": "I Need Thee Every Hour",
+        "artists": ["The Banner Days"],
+        "album": { "name": "Hand Me a Hymnal" }
+      },
+      {
+        "name": "Come Thou Fount / I Will Arise",
+        "titleShort": "Come Thou Fount / I Will Arise",
+        "artists": ["The Banner Days"],
+        "album": { "name": "Hand Me a Hymnal" }
+      }
+    ]
+  },
+  {
+    "playlistName": "Foregn",
+    "nb_tracks": 10,
+    "trackData": [
+      {
+        "name": "Typisk Norsk",
+        "titleShort": "Typisk Norsk",
+        "artists": ["Katastrofe"],
+        "album": { "name": "Typisk Norsk" }
+      },
+      {
+        "name": "Lyset på",
+        "titleShort": "Lyset på",
+        "artists": ["Cir.Cuz"],
+        "album": { "name": "Lyset på" }
+      },
+      {
+        "name": "Hullu",
+        "titleShort": "Hullu",
+        "artists": ["JuJu"],
+        "album": { "name": "Julius Kivi on hullu" }
+      },
+      {
+        "name": "Norges Beste Kebab",
+        "titleShort": "Norges Beste Kebab",
+        "artists": ["Alias"],
+        "album": { "name": "Norges Beste Kebab" }
+      },
+      {
+        "name": "Ástin á sér stað",
+        "titleShort": "Ástin á sér stað",
+        "artists": ["Sverrir Bergmann"],
+        "album": { "name": "Ástin á sér stað" }
+      },
+      {
+        "name": "Pow Wow Song (Native American Music)",
+        "titleShort": "Pow Wow Song",
+        "artists": ["Indian Calling"],
+        "album": {
+          "name": "Drums and Chants of Natives (10 Indian Tunes Performed on Native American Drums and Chants)"
+        }
+      },
+      {
+        "name": "Verdammt ich lieb' dich (Gestört aber Geil Remix)",
+        "titleShort": "Verdammt ich lieb' dich",
+        "artists": ["Mike Singer"],
+        "album": { "name": "Verdammt ich lieb' dich (Gestört aber Geil Remix)" }
+      },
+      {
+        "name": "Hey Ho",
+        "titleShort": "Hey Ho",
+        "artists": ["Freddy Kalas"],
+        "album": { "name": "Hey Ho" }
+      },
+      {
+        "name": "Fy Faen",
+        "titleShort": "Fy Faen",
+        "artists": ["Hkeem"],
+        "album": { "name": "Fy Faen" }
+      },
+      {
+        "name": "Ja må du leva",
+        "titleShort": "Ja må du leva",
+        "artists": ["Darin"],
+        "album": { "name": "Ja må du leva" }
+      }
+    ]
+  },
+  {
+    "playlistName": "Grass is bluer on the other side",
+    "nb_tracks": 24,
+    "trackData": [
+      {
+        "name": "Take The Journey",
+        "titleShort": "Take The Journey",
+        "artists": ["Molly Tuttle"],
+        "album": { "name": "When You're Ready" }
+      },
+      {
+        "name": "Sunflower, Vol. 6",
+        "titleShort": "Sunflower, Vol. 6",
+        "artists": ["Molly Tuttle"],
+        "album": { "name": "...but i'd rather be with you" }
+      },
+      {
+        "name": "The Cure",
+        "titleShort": "The Cure",
+        "artists": ["Watkins Family Hour"],
+        "album": { "name": "Brother Sister" }
+      },
+      {
+        "name": "Brokedown Palace",
+        "titleShort": "Brokedown Palace",
+        "artists": ["Watkins Family Hour"],
+        "album": { "name": "Watkins Family Hour" }
+      },
+      {
+        "name": "Not in Nottingham",
+        "titleShort": "Not in Nottingham",
+        "artists": ["Watkins Family Hour"],
+        "album": { "name": "Watkins Family Hour" }
+      },
+      {
+        "name": "Steal Your Heart Away",
+        "titleShort": "Steal Your Heart Away",
+        "artists": ["Watkins Family Hour"],
+        "album": { "name": "Watkins Family Hour" }
+      },
+      {
+        "name": "Feeling Good Again",
+        "titleShort": "Feeling Good Again",
+        "artists": ["Watkins Family Hour"],
+        "album": { "name": "Watkins Family Hour" }
+      },
+      {
+        "name": "Just Another Reason",
+        "titleShort": "Just Another Reason",
+        "artists": ["Watkins Family Hour"],
+        "album": { "name": "Brother Sister" }
+      },
+      {
+        "name": "Miles of Desert Sand",
+        "titleShort": "Miles of Desert Sand",
+        "artists": ["Watkins Family Hour"],
+        "album": { "name": "Brother Sister" }
+      },
+      {
+        "name": "I Still Haven't Found What I'm Looking For",
+        "titleShort": "I Still Haven't Found What I'm Looking For",
+        "artists": ["Sarah Jarosz"],
+        "album": {
+          "name": "I Still Haven't Found What I'm Looking For / my future"
+        }
+      },
+      {
+        "name": "Build Me Up From Bones",
+        "titleShort": "Build Me Up From Bones",
+        "artists": ["Sarah Jarosz"],
+        "album": { "name": "Build Me Up From Bones" }
+      },
+      {
+        "name": "Morning",
+        "titleShort": "Morning",
+        "artists": ["Sarah Jarosz"],
+        "album": { "name": "Blue Heron Suite" }
+      },
+      {
+        "name": "Take Me Back",
+        "titleShort": "Take Me Back",
+        "artists": ["Sarah Jarosz"],
+        "album": { "name": "Undercurrent" }
+      },
+      {
+        "name": "Your Coffee Is a Disaster",
+        "titleShort": "Your Coffee Is a Disaster",
+        "artists": ["Yo-Yo Ma"],
+        "album": { "name": "Not Our First Goat Rodeo" }
+      },
+      {
+        "name": "The Trappings",
+        "titleShort": "The Trappings",
+        "artists": ["Yo-Yo Ma"],
+        "album": { "name": "Not Our First Goat Rodeo" }
+      },
+      {
+        "name": "Middle Of The Woods",
+        "titleShort": "Middle Of The Woods",
+        "artists": ["Sierra Hull"],
+        "album": { "name": "25 Trips" }
+      },
+      {
+        "name": "How Long",
+        "titleShort": "How Long",
+        "artists": ["Sierra Hull"],
+        "album": { "name": "25 Trips" }
+      },
+      {
+        "name": "Bombshell",
+        "titleShort": "Bombshell",
+        "artists": ["Sierra Hull"],
+        "album": { "name": "Daybreak" }
+      },
+      {
+        "name": "Grammy Award Winning Keith Urban Artist",
+        "titleShort": "Grammy Award Winning Keith Urban Artist",
+        "artists": ["Injured Ninja"],
+        "album": { "name": "Total Impact! Maxxx Damage!" }
+      },
+      {
+        "name": "Summer's End",
+        "titleShort": "Summer's End",
+        "artists": ["Sierra Hull"],
+        "album": { "name": "Summer's End" }
+      },
+      {
+        "name": "Compass",
+        "titleShort": "Compass",
+        "artists": ["Sierra Hull"],
+        "album": { "name": "Weighted Mind" }
+      },
+      {
+        "name": "Light of the Burning Sun",
+        "titleShort": "Light of the Burning Sun",
+        "artists": ["John Hiatt"],
+        "album": { "name": "Leftover Feelings" }
+      },
+      {
+        "name": "Changes in My Mind",
+        "titleShort": "Changes in My Mind",
+        "artists": ["John Hiatt"],
+        "album": { "name": "Leftover Feelings" }
+      },
+      {
+        "name": "Toward the Fray",
+        "titleShort": "Toward the Fray",
+        "artists": ["The Infamous Stringdusters"],
+        "album": { "name": "Toward the Fray" }
+      }
+    ]
+  },
+  {
+    "playlistName": "Great Are You Lord",
+    "nb_tracks": 26,
+    "trackData": [
+      {
+        "name": "King of My Heart",
+        "titleShort": "King of My Heart",
+        "artists": ["Kutless"],
+        "album": { "name": "King of My Heart - Single" }
+      },
+      {
+        "name": "My Lighthouse",
+        "titleShort": "My Lighthouse",
+        "artists": ["Rend Collective"],
+        "album": { "name": "The Art Of Celebration" }
+      },
+      {
+        "name": "One And Only",
+        "titleShort": "One And Only",
+        "artists": ["Rend Collective"],
+        "album": { "name": "As Family We Go" }
+      },
+      {
+        "name": "Beautiful Things (album)",
+        "titleShort": "Beautiful Things",
+        "artists": ["Gungor"],
+        "album": { "name": "Beautiful Things" }
+      },
+      {
+        "name": "Give It All Away",
+        "titleShort": "Give It All Away",
+        "artists": ["Aaron Shust"],
+        "album": { "name": "Anything Worth Saying" }
+      },
+      {
+        "name": "My Savior My God",
+        "titleShort": "My Savior My God",
+        "artists": ["Aaron Shust"],
+        "album": { "name": "Anything Worth Saying" }
+      },
+      {
+        "name": "These Are The Moments That Make Up My Life",
+        "titleShort": "These Are The Moments That Make Up My Life",
+        "artists": ["Bryan Adams"],
+        "album": { "name": "So Happy It Hurts" }
+      },
+      {
+        "name": "Broken Vessels (Amazing Grace) (Live)",
+        "titleShort": "Broken Vessels (Amazing Grace)",
+        "artists": ["Hillsong Worship"],
+        "album": { "name": "No Other Name (Deluxe Edition/Live)" }
+      },
+      {
+        "name": "Your Great Love",
+        "titleShort": "Your Great Love",
+        "artists": ["Bellarive"],
+        "album": { "name": "Before There Was" }
+      },
+      {
+        "name": "Pursue / All I Need Is You (Medley/Live)",
+        "titleShort": "Pursue / All I Need Is You",
+        "artists": ["Hillsong Worship"],
+        "album": { "name": "OPEN HEAVEN / River Wild (Deluxe/Live)" }
+      },
+      {
+        "name": "I Will Follow (Acoustic)",
+        "titleShort": "I Will Follow (Acoustic)",
+        "artists": ["Jon Guerra"],
+        "album": { "name": "I Will Follow (Acoustic)" }
+      },
+      {
+        "name": "Good to Me",
+        "titleShort": "Good to Me",
+        "artists": ["Audrey Assad"],
+        "album": { "name": "Fortunate Fall" }
+      },
+      {
+        "name": "Lead Me On",
+        "titleShort": "Lead Me On",
+        "artists": ["Audrey Assad"],
+        "album": { "name": "Fortunate Fall" }
+      },
+      {
+        "name": "Spirit of the Living God",
+        "titleShort": "Spirit of the Living God",
+        "artists": ["Audrey Assad"],
+        "album": { "name": "Fortunate Fall" }
+      },
+      {
+        "name": "Oh, the Deep, Deep Love of Jesus (feat. Fernando Ortega)",
+        "titleShort": "Oh, the Deep, Deep Love of Jesus (feat. Fernando Ortega)",
+        "artists": ["Audrey Assad"],
+        "album": { "name": "Inheritance (Deluxe Edition)" }
+      },
+      {
+        "name": "Teresa",
+        "titleShort": "Teresa",
+        "artists": ["Audrey Assad"],
+        "album": { "name": "Evergreen" }
+      },
+      {
+        "name": "Canticle of the Turning",
+        "titleShort": "Canticle of the Turning",
+        "artists": ["Emmaus Way"],
+        "album": { "name": "Rite 7" }
+      },
+      {
+        "name": "Reckless Love",
+        "titleShort": "Reckless Love",
+        "artists": ["Cory Asbury"],
+        "album": { "name": "Reckless Love" }
+      },
+      {
+        "name": "Jesus I'm Sorry - Spontaneous (Live)",
+        "titleShort": "Jesus I'm Sorry - Spontaneous",
+        "artists": ["Freedom Church"],
+        "album": { "name": "Running The Race (Live At The Cave)" }
+      },
+      {
+        "name": "When I Am Afraid (Psalm 56:3-4 NLT)",
+        "titleShort": "When I Am Afraid (Psalm 56:3-4 NLT)",
+        "artists": ["Sing Through The Bible"],
+        "album": { "name": "When I Am Afraid (Psalm 56:3-4 NLT)" }
+      },
+      {
+        "name": "So Will I (100 Billion X) [Instrumental]",
+        "titleShort": "So Will I (100 Billion X) [Instrumental]",
+        "artists": ["Sing Through The Bible"],
+        "album": { "name": "So Will I (100 Billion X)" }
+      },
+      {
+        "name": "I Run To You (Psalm 143:7-11)",
+        "titleShort": "I Run To You (Psalm 143:7-11)",
+        "artists": ["Sing Through The Bible"],
+        "album": { "name": "I Run To You (Psalm 143:7-11)" }
+      },
+      {
+        "name": "I Have Fought the Good Fight (2 Timothy 4:5-8 NLT)",
+        "titleShort": "I Have Fought the Good Fight (2 Timothy 4:5-8 NLT)",
+        "artists": ["Sing Through The Bible"],
+        "album": { "name": "I Have Fought the Good Fight (2 Timothy 4:5-8)" }
+      },
+      {
+        "name": "What Blessings Await You (Luke 6:22-23a)",
+        "titleShort": "What Blessings Await You (Luke 6:22-23a)",
+        "artists": ["Sing Through The Bible"],
+        "album": { "name": "December Specials 2018" }
+      },
+      {
+        "name": "Listen to My Teaching (Matthew 13:12)",
+        "titleShort": "Listen to My Teaching (Matthew 13:12)",
+        "artists": ["Sing Through The Bible"],
+        "album": { "name": "December Specials 2018" }
+      },
+      {
+        "name": "Holdin' To Me (Psalm 63:6-8) [Instrumental]",
+        "titleShort": "Holdin' To Me (Psalm 63:6-8) [Instrumental]",
+        "artists": ["Sing Through The Bible"],
+        "album": { "name": "December Specials 2018" }
+      }
+    ]
+  },
+  {
+    "playlistName": "Instrumental",
+    "nb_tracks": 13,
+    "trackData": [
+      {
+        "name": "Country Hymn",
+        "titleShort": "Country Hymn",
+        "artists": ["Adam Young"],
+        "album": { "name": "Corduroy Road" }
+      },
+      {
+        "name": "Unless",
+        "titleShort": "Unless",
+        "artists": ["Hawktail"],
+        "album": { "name": "Unless" }
+      },
+      {
+        "name": "Welcome Home, Son (Orchestral)",
+        "titleShort": "Welcome Home, Son (Orchestral)",
+        "artists": ["Radical Face"],
+        "album": { "name": "Ghost (Anniversary Edition)" }
+      },
+      {
+        "name": "Georgia Boys",
+        "titleShort": "Georgia Boys",
+        "artists": ["Adam Young"],
+        "album": { "name": "Corduroy Road" }
+      },
+      {
+        "name": "Up With the Stars",
+        "titleShort": "Up With the Stars",
+        "artists": ["Adam Young"],
+        "album": { "name": "Corduroy Road" }
+      },
+      {
+        "name": "Sherman",
+        "titleShort": "Sherman",
+        "artists": ["Adam Young"],
+        "album": { "name": "Corduroy Road" }
+      },
+      {
+        "name": "Kennesaw Mountain",
+        "titleShort": "Kennesaw Mountain",
+        "artists": ["Adam Young"],
+        "album": { "name": "Corduroy Road" }
+      },
+      {
+        "name": "Atlanta",
+        "titleShort": "Atlanta",
+        "artists": ["Adam Young"],
+        "album": { "name": "Corduroy Road" }
+      },
+      {
+        "name": "The Deep South",
+        "titleShort": "The Deep South",
+        "artists": ["Adam Young"],
+        "album": { "name": "Corduroy Road" }
+      },
+      {
+        "name": "How Sweet the Sound",
+        "titleShort": "How Sweet the Sound",
+        "artists": ["Adam Young"],
+        "album": { "name": "Corduroy Road" }
+      },
+      {
+        "name": "March to the Sea",
+        "titleShort": "March to the Sea",
+        "artists": ["Adam Young"],
+        "album": { "name": "Corduroy Road" }
+      },
+      {
+        "name": "Fall of the Confederacy",
+        "titleShort": "Fall of the Confederacy",
+        "artists": ["Adam Young"],
+        "album": { "name": "Corduroy Road" }
+      },
+      {
+        "name": "I Wanted to Leave",
+        "titleShort": "I Wanted to Leave",
+        "artists": ["SYML"],
+        "album": { "name": "You Knew It Was Me" }
+      }
+    ]
+  },
+  {
+    "playlistName": "Lord Huron — Strange Trails",
+    "nb_tracks": 46,
+    "trackData": [
+      {
+        "name": "Love Like Ghosts",
+        "titleShort": "Love Like Ghosts",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Strange Trails" }
+      },
+      {
+        "name": "Until the Night Turns",
+        "titleShort": "Until the Night Turns",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Strange Trails" }
+      },
+      {
+        "name": "Dead Man's Hand",
+        "titleShort": "Dead Man's Hand",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Strange Trails" }
+      },
+      {
+        "name": "Hurricane (Johnnie's Theme)",
+        "titleShort": "Hurricane (Johnnie's Theme)",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Strange Trails" }
+      },
+      {
+        "name": "La Belle Fleur Sauvage",
+        "titleShort": "La Belle Fleur Sauvage",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Strange Trails" }
+      },
+      {
+        "name": "Fool for Love",
+        "titleShort": "Fool for Love",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Strange Trails" }
+      },
+      {
+        "name": "The World Ender",
+        "titleShort": "The World Ender",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Strange Trails" }
+      },
+      {
+        "name": "Meet Me in the Woods",
+        "titleShort": "Meet Me in the Woods",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Strange Trails" }
+      },
+      {
+        "name": "The Yawning Grave",
+        "titleShort": "The Yawning Grave",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Strange Trails" }
+      },
+      {
+        "name": "Frozen Pines",
+        "titleShort": "Frozen Pines",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Strange Trails" }
+      },
+      {
+        "name": "Cursed",
+        "titleShort": "Cursed",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Strange Trails" }
+      },
+      {
+        "name": "Way out There",
+        "titleShort": "Way out There",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Strange Trails" }
+      },
+      {
+        "name": "Louisa",
+        "titleShort": "Louisa",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Strange Trails" }
+      },
+      {
+        "name": "The Night We Met",
+        "titleShort": "The Night We Met",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Strange Trails" }
+      },
+      {
+        "name": "Ends of the Earth",
+        "titleShort": "Ends of the Earth",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Lonesome Dreams (Bonus Track Version)" }
+      },
+      {
+        "name": "Time to Run",
+        "titleShort": "Time to Run",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Lonesome Dreams (Bonus Track Version)" }
+      },
+      {
+        "name": "Lonesome Dreams",
+        "titleShort": "Lonesome Dreams",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Lonesome Dreams (Bonus Track Version)" }
+      },
+      {
+        "name": "The Ghost on the Shore",
+        "titleShort": "The Ghost on the Shore",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Lonesome Dreams (Bonus Track Version)" }
+      },
+      {
+        "name": "She Lit a Fire",
+        "titleShort": "She Lit a Fire",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Lonesome Dreams (Bonus Track Version)" }
+      },
+      {
+        "name": "I Will Be Back One Day",
+        "titleShort": "I Will Be Back One Day",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Lonesome Dreams (Bonus Track Version)" }
+      },
+      {
+        "name": "The Man Who Lives Forever",
+        "titleShort": "The Man Who Lives Forever",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Lonesome Dreams (Bonus Track Version)" }
+      },
+      {
+        "name": "Lullaby",
+        "titleShort": "Lullaby",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Lonesome Dreams (Bonus Track Version)" }
+      },
+      {
+        "name": "Brother",
+        "titleShort": "Brother",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Lonesome Dreams (Bonus Track Version)" }
+      },
+      {
+        "name": "The Birds Are Singing At Night",
+        "titleShort": "The Birds Are Singing At Night",
+        "artists": ["Lord Huron"],
+        "album": { "name": "A Walk In The Woods" }
+      },
+      {
+        "name": "In The Wind",
+        "titleShort": "In The Wind",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Lonesome Dreams (Bonus Track Version)" }
+      },
+      {
+        "name": "Lost in Time and Space",
+        "titleShort": "Lost in Time and Space",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Vide Noir" }
+      },
+      {
+        "name": "When the Night is Over",
+        "titleShort": "When the Night is Over",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Vide Noir" }
+      },
+      {
+        "name": "Mighty",
+        "titleShort": "Mighty",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Mighty" }
+      },
+      {
+        "name": "Son of a Gun",
+        "titleShort": "Son of a Gun",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Mighty" }
+      },
+      {
+        "name": "The Stranger",
+        "titleShort": "The Stranger",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Mighty" }
+      },
+      {
+        "name": "When Will I See You Again",
+        "titleShort": "When Will I See You Again",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Mighty" }
+      },
+      {
+        "name": "The Moon Doesn’t Mind",
+        "titleShort": "The Moon Doesn’t Mind",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Long Lost (Deluxe Edition)" }
+      },
+      {
+        "name": "Mine Forever",
+        "titleShort": "Mine Forever",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Long Lost" }
+      },
+      {
+        "name": "(One Helluva Performer)",
+        "titleShort": "(One Helluva Performer)",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Long Lost" }
+      },
+      {
+        "name": "Love Me Like You Used To",
+        "titleShort": "Love Me Like You Used To",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Long Lost" }
+      },
+      {
+        "name": "Meet Me in the City",
+        "titleShort": "Meet Me in the City",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Long Lost (Deluxe Edition)" }
+      },
+      {
+        "name": "(Sing For Us Tonight)",
+        "titleShort": "(Sing For Us Tonight)",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Long Lost" }
+      },
+      {
+        "name": "Long Lost",
+        "titleShort": "Long Lost",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Long Lost" }
+      },
+      {
+        "name": "Twenty Long Years",
+        "titleShort": "Twenty Long Years",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Long Lost" }
+      },
+      {
+        "name": "Drops in the Lake",
+        "titleShort": "Drops in the Lake",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Long Lost (Deluxe Edition)" }
+      },
+      {
+        "name": "Where Did the Time Go",
+        "titleShort": "Where Did the Time Go",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Long Lost" }
+      },
+      {
+        "name": "Not Dead Yet",
+        "titleShort": "Not Dead Yet",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Long Lost" }
+      },
+      {
+        "name": "(Deep Down Inside Ya)",
+        "titleShort": "(Deep Down Inside Ya)",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Long Lost" }
+      },
+      {
+        "name": "At Sea",
+        "titleShort": "At Sea",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Long Lost" }
+      },
+      {
+        "name": "What Do It Mean",
+        "titleShort": "What Do It Mean",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Long Lost (Deluxe Edition)" }
+      },
+      {
+        "name": "Time's Blur",
+        "titleShort": "Time's Blur",
+        "artists": ["Lord Huron"],
+        "album": { "name": "Long Lost" }
+      }
+    ]
+  },
+  {
+    "playlistName": "Lord of the Rings",
+    "nb_tracks": 34,
+    "trackData": [
+      {
+        "name": "A Knife in the Dark",
+        "titleShort": "A Knife in the Dark",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Fellowship of the Ring (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "Many Meetings",
+        "titleShort": "Many Meetings",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Fellowship of the Ring (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "Flight to the Ford",
+        "titleShort": "Flight to the Ford",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Fellowship of the Ring (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "The Ring Goes South",
+        "titleShort": "The Ring Goes South",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Fellowship of the Ring (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "Lothlorien (feat. \"Lament for Gandalf\")",
+        "titleShort": "Lothlorien (feat. \"Lament for Gandalf\")",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Fellowship of the Ring (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "Amon Hen",
+        "titleShort": "Amon Hen",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Fellowship of the Ring (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "The Ride of the Rohirrim",
+        "titleShort": "The Ride of the Rohirrim",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Return of the King (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "Days of the Ring (feat. Annie Lennox Performing \"Into the West\")",
+        "titleShort": "Days of the Ring (feat. Annie Lennox Performing \"Into the West\")",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings - The Return of the King - The Complete Recordings (Limited Edition)"
+        }
+      },
+      {
+        "name": "The Sacrifice of Faramir (feat. Billy Boyd Performing \"The Edge of Night\")",
+        "titleShort": "The Sacrifice of Faramir (feat. Billy Boyd Performing \"The Edge of Night\")",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings - The Return of the King - The Complete Recordings (Limited Edition)"
+        }
+      },
+      {
+        "name": "Roots and Beginnings",
+        "titleShort": "Roots and Beginnings",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings - The Return of the King - The Complete Recordings (Limited Edition)"
+        }
+      },
+      {
+        "name": "The Road to Isengard",
+        "titleShort": "The Road to Isengard",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings - The Return of the King - The Complete Recordings (Limited Edition)"
+        }
+      },
+      {
+        "name": "Minas Tirith (feat. Ben Del Maestro)",
+        "titleShort": "Minas Tirith (feat. Ben Del Maestro)",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Return of the King (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "Hope and Memory",
+        "titleShort": "Hope and Memory",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Return of the King (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "The Grey Havens (feat. Sir James Galway)",
+        "titleShort": "The Grey Havens (feat. Sir James Galway)",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Return of the King (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "The End of All Things (feat. Renee Fleming)",
+        "titleShort": "The End of All Things (feat. Renee Fleming)",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Return of the King (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "The Fellowship Reunited (feat. Sir James Galway, Viggo Mortensen and Renée Fleming)",
+        "titleShort": "The Fellowship Reunited (feat. Sir James Galway, Viggo Mortensen and Renée Fleming)",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings - The Return of the King - The Complete Recordings (Limited Edition)"
+        }
+      },
+      {
+        "name": "Into the West",
+        "titleShort": "Into the West",
+        "artists": ["Annie Lennox"],
+        "album": {
+          "name": "The Lord of the Rings: The Return of the King (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "The Bridge of Khazad Dum",
+        "titleShort": "The Bridge of Khazad Dum",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Fellowship of the Ring (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "May It Be",
+        "titleShort": "May It Be",
+        "artists": ["Enya"],
+        "album": {
+          "name": "The Lord of the Rings: The Fellowship of the Ring (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "Bilbo's Song",
+        "titleShort": "Bilbo's Song",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings - The Return of the King - The Complete Recordings (Limited Edition)"
+        }
+      },
+      {
+        "name": "The Breaking of the Fellowship (feat. \"In Dreams\")",
+        "titleShort": "The Breaking of the Fellowship (feat. \"In Dreams\")",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Fellowship of the Ring (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "The Eagles (feat. Renée Fleming)",
+        "titleShort": "The Eagles (feat. Renée Fleming)",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings - The Return of the King - The Complete Recordings (Limited Edition)"
+        }
+      },
+      {
+        "name": "The Grace of Undómiel (feat. Renée Fleming)",
+        "titleShort": "The Grace of Undómiel (feat. Renée Fleming)",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings - The Return of the King - The Complete Recordings (Limited Edition)"
+        }
+      },
+      {
+        "name": "Evenstar",
+        "titleShort": "Evenstar",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Two Towers (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "Now We are Free",
+        "titleShort": "Now We are Free",
+        "artists": ["2CELLOS"],
+        "album": { "name": "Score" }
+      },
+      {
+        "name": "Breath of Life",
+        "titleShort": "Breath of Life",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Two Towers (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "The Wedding",
+        "titleShort": "The Wedding",
+        "artists": ["Bear McCreary"],
+        "album": {
+          "name": "Outlander: Season 1, Vol. 1 (Original Television Soundtrack)"
+        }
+      },
+      {
+        "name": "The Council of Elrond (feat. \"Aniron\") [Theme for Aragorn and Arwen]",
+        "titleShort": "The Council of Elrond (feat. \"Aniron\") [Theme for Aragorn and Arwen]",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Fellowship of the Ring (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "The Leave Taking",
+        "titleShort": "The Leave Taking",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings: The Two Towers (Original Motion Picture Soundtrack)"
+        }
+      },
+      {
+        "name": "Éowyn's Dream",
+        "titleShort": "Éowyn's Dream",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings - The Return of the King - The Complete Recordings (Limited Edition)"
+        }
+      },
+      {
+        "name": "The Passing of Théoden",
+        "titleShort": "The Passing of Théoden",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings - The Return of the King - The Complete Recordings (Limited Edition)"
+        }
+      },
+      {
+        "name": "The Houses of Healing (feat. Liv Tyler)",
+        "titleShort": "The Houses of Healing (feat. Liv Tyler)",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings - The Return of the King - The Complete Recordings (Limited Edition)"
+        }
+      },
+      {
+        "name": "Elanor (feat. Sir James Galway)",
+        "titleShort": "Elanor (feat. Sir James Galway)",
+        "artists": ["Howard Shore"],
+        "album": {
+          "name": "The Lord of the Rings - The Return of the King - The Complete Recordings (Limited Edition)"
+        }
+      },
+      {
+        "name": "The Bridge Of Khazad-Dum (From \"The Lord Of The Rings\")",
+        "titleShort": "The Bridge Of Khazad-Dum (From \"The Lord Of The Rings\")",
+        "artists": ["Eurielle"],
+        "album": {
+          "name": "The Bridge Of Khazad-Dum (From \"The Lord Of The Rings\")"
+        }
+      }
+    ]
+  },
+  { "playlistName": "Loved Tracks", "nb_tracks": 0, "trackData": [] },
+  { "playlistName": "marty robbins", "nb_tracks": 0, "trackData": [] },
+  { "playlistName": "My playlist", "nb_tracks": 0, "trackData": [] },
+  {
+    "playlistName": "New like chill",
+    "nb_tracks": 50,
+    "trackData": [
+      {
+        "name": "Coastline",
+        "titleShort": "Coastline",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Wanderlust" }
+      },
+      {
+        "name": "The Woods",
+        "titleShort": "The Woods",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Wanderlust" }
+      },
+      {
+        "name": "We Will Run",
+        "titleShort": "We Will Run",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Wanderlust" }
+      },
+      {
+        "name": "Home",
+        "titleShort": "Home",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Wanderlust" }
+      },
+      {
+        "name": "These Memories",
+        "titleShort": "These Memories",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Wanderlust" }
+      },
+      {
+        "name": "Interlude",
+        "titleShort": "Interlude",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Wanderlust" }
+      },
+      {
+        "name": "Elijah",
+        "titleShort": "Elijah",
+        "artists": ["Matthew And The Atlas"],
+        "album": { "name": "Temple" }
+      },
+      {
+        "name": "Sophie",
+        "titleShort": "Sophie",
+        "artists": ["Bear's Den"],
+        "album": { "name": "Without/Within" }
+      },
+      {
+        "name": "Misty",
+        "titleShort": "Misty",
+        "artists": ["Caamp"],
+        "album": { "name": "Misty" }
+      },
+      {
+        "name": "Vagabond",
+        "titleShort": "Vagabond",
+        "artists": ["Caamp"],
+        "album": { "name": "Caamp" }
+      },
+      {
+        "name": "So Cool",
+        "titleShort": "So Cool",
+        "artists": ["Caamp"],
+        "album": { "name": "Boys (Side A)" }
+      },
+      {
+        "name": "Common Man",
+        "titleShort": "Common Man",
+        "artists": ["Caamp"],
+        "album": { "name": "Common Man" }
+      },
+      {
+        "name": "All the Debts I Owe",
+        "titleShort": "All the Debts I Owe",
+        "artists": ["Caamp"],
+        "album": { "name": "Caamp" }
+      },
+      {
+        "name": "26",
+        "titleShort": "26",
+        "artists": ["Caamp"],
+        "album": { "name": "26" }
+      },
+      {
+        "name": "So Long, Honey",
+        "titleShort": "So Long, Honey",
+        "artists": ["Caamp"],
+        "album": { "name": "Caamp" }
+      },
+      {
+        "name": "Hey Joe",
+        "titleShort": "Hey Joe",
+        "artists": ["Caamp"],
+        "album": { "name": "Hey Joe" }
+      },
+      {
+        "name": "Iffy",
+        "titleShort": "Iffy",
+        "artists": ["Caamp"],
+        "album": { "name": "Caamp" }
+      },
+      {
+        "name": "See the World",
+        "titleShort": "See the World",
+        "artists": ["Caamp"],
+        "album": { "name": "Caamp" }
+      },
+      {
+        "name": "Great Heights",
+        "titleShort": "Great Heights",
+        "artists": ["Caamp"],
+        "album": { "name": "Caamp" }
+      },
+      {
+        "name": "Song for a Friend",
+        "titleShort": "Song for a Friend",
+        "artists": ["Caamp"],
+        "album": { "name": "Boys (Side B)" }
+      },
+      {
+        "name": "Strawberries",
+        "titleShort": "Strawberries",
+        "artists": ["Caamp"],
+        "album": { "name": "Boys (Side B)" }
+      },
+      {
+        "name": "Andra (Audiotree Live Version)",
+        "titleShort": "Andra",
+        "artists": ["The Ghost of Paul Revere"],
+        "album": { "name": "The Ghost of Paul Revere on Audiotree Live" }
+      },
+      {
+        "name": "Books",
+        "titleShort": "Books",
+        "artists": ["Caamp"],
+        "album": { "name": "Boys (Side B)" }
+      },
+      {
+        "name": "Send the Fisherman",
+        "titleShort": "Send the Fisherman",
+        "artists": ["Caamp"],
+        "album": { "name": "Boys (Side B)" }
+      },
+      {
+        "name": "Going to the Country",
+        "titleShort": "Going to the Country",
+        "artists": ["Caamp"],
+        "album": { "name": "Boys (Side A)" }
+      },
+      {
+        "name": "Autumn Leaves",
+        "titleShort": "Autumn Leaves",
+        "artists": ["Caamp"],
+        "album": { "name": "Boys (Side A)" }
+      },
+      {
+        "name": "Full Moon Song",
+        "titleShort": "Full Moon Song",
+        "artists": ["Caamp"],
+        "album": { "name": "Boys (Side A)" }
+      },
+      {
+        "name": "Of Love and Life",
+        "titleShort": "Of Love and Life",
+        "artists": ["Caamp"],
+        "album": { "name": "By and By" }
+      },
+      {
+        "name": "Moonsmoke",
+        "titleShort": "Moonsmoke",
+        "artists": ["Caamp"],
+        "album": { "name": "By and By" }
+      },
+      {
+        "name": "By and By",
+        "titleShort": "By and By",
+        "artists": ["Caamp"],
+        "album": { "name": "By and By" }
+      },
+      {
+        "name": "Penny, Heads Up",
+        "titleShort": "Penny, Heads Up",
+        "artists": ["Caamp"],
+        "album": { "name": "By and By" }
+      },
+      {
+        "name": "Time",
+        "titleShort": "Time",
+        "artists": ["John Lucas"],
+        "album": { "name": "Promised Land" }
+      },
+      {
+        "name": "Anew (Acoustic)",
+        "titleShort": "Anew",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Anew" }
+      },
+      {
+        "name": "Patience",
+        "titleShort": "Patience",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Moments" }
+      },
+      {
+        "name": "Beauty in the Light",
+        "titleShort": "Beauty in the Light",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Moments" }
+      },
+      {
+        "name": "Anew",
+        "titleShort": "Anew",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Moments" }
+      },
+      {
+        "name": "Moments",
+        "titleShort": "Moments",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Moments" }
+      },
+      {
+        "name": "When We Were Young",
+        "titleShort": "When We Were Young",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Moments" }
+      },
+      {
+        "name": "Borderlines",
+        "titleShort": "Borderlines",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Moments" }
+      },
+      {
+        "name": "The Open Road",
+        "titleShort": "The Open Road",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Moments" }
+      },
+      {
+        "name": "Ran Away",
+        "titleShort": "Ran Away",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Moments" }
+      },
+      {
+        "name": "Notions",
+        "titleShort": "Notions",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Moments" }
+      },
+      {
+        "name": "Pictures",
+        "titleShort": "Pictures",
+        "artists": ["Hollow Coves"],
+        "album": { "name": "Moments" }
+      },
+      {
+        "name": "Here, Right Now",
+        "titleShort": "Here, Right Now",
+        "artists": ["Joshua Radin"],
+        "album": { "name": "Here, Right Now" }
+      },
+      {
+        "name": "Square One",
+        "titleShort": "Square One",
+        "artists": ["Caamp"],
+        "album": { "name": "Square One" }
+      },
+      {
+        "name": "New Auburn",
+        "titleShort": "New Auburn",
+        "artists": ["Big Red Machine"],
+        "album": { "name": "How Long Do You Think It's Gonna Last?" }
+      },
+      {
+        "name": "Watching the Pines",
+        "titleShort": "Watching the Pines",
+        "artists": ["Mustard's Retreat"],
+        "album": { "name": "Back to Back" }
+      },
+      {
+        "name": "Alone (Live at Red Rocks)",
+        "titleShort": "Alone",
+        "artists": ["Trampled By Turtles"],
+        "album": { "name": "Alone (Live at Red Rocks)" }
+      },
+      {
+        "name": "Take Your Time",
+        "titleShort": "Take Your Time",
+        "artists": ["Various Artists"],
+        "album": { "name": "Dream Folk 2" }
+      },
+      {
+        "name": "Starting Over",
+        "titleShort": "Starting Over",
+        "artists": ["Trampled By Turtles"],
+        "album": { "name": "Alpenglow" }
+      }
+    ]
+  },
+  {
+    "playlistName": "nice songs from movies",
+    "nb_tracks": 8,
+    "trackData": [
+      {
+        "name": "Hymne des Fraternisés: I'm dreaming of home",
+        "titleShort": "Hymne des Fraternisés: I'm dreaming of home",
+        "artists": ["London Symphony Orchestra"],
+        "album": { "name": "Joyeux Noël (Original Soundtrack)" }
+      },
+      {
+        "name": "Bab' Azîz",
+        "titleShort": "Bab' Azîz",
+        "artists": ["Armand Amar"],
+        "album": { "name": "Bab' Azîz (Original Motion Picture Soundtrack)" }
+      },
+      {
+        "name": "The Ludlows",
+        "titleShort": "The Ludlows",
+        "artists": ["James Horner"],
+        "album": {
+          "name": "Legends Of The Fall Original Motion Picture Soundtrack"
+        }
+      },
+      {
+        "name": "Resurgam",
+        "titleShort": "Resurgam",
+        "artists": ["Anne Dudley"],
+        "album": {
+          "name": "Poldark: Music from the TV Series (Deluxe Version)"
+        }
+      },
+      {
+        "name": "Ride to Death",
+        "titleShort": "Ride to Death",
+        "artists": ["Carter Burwell"],
+        "album": { "name": "True Grit" }
+      },
+      {
+        "name": "Come Back to Us",
+        "titleShort": "Come Back to Us",
+        "artists": ["Thomas Newman"],
+        "album": { "name": "1917 (Original Motion Picture Soundtrack)" }
+      },
+      {
+        "name": "Emma",
+        "titleShort": "Emma",
+        "artists": ["Steven Price"],
+        "album": { "name": "Fury (Original Motion Picture Soundtrack)" }
+      },
+      {
+        "name": "As the Valley Slumbers",
+        "titleShort": "As the Valley Slumbers",
+        "artists": ["Ian Fontova"],
+        "album": { "name": "Foras" }
+      }
+    ]
+  },
+  {
+    "playlistName": "Old Music",
+    "nb_tracks": 48,
+    "trackData": [
+      {
+        "name": "Hold Me, Thrill Me, Kiss Me",
+        "titleShort": "Hold Me, Thrill Me, Kiss Me",
+        "artists": ["Mel Carter"],
+        "album": { "name": "The Best Of Mel Carter" }
+      },
+      {
+        "name": "Ain't No Sunshine",
+        "titleShort": "Ain't No Sunshine",
+        "artists": ["Bill Withers"],
+        "album": { "name": "Just As I Am" }
+      },
+      {
+        "name": "Nobody Knows the Trouble I've Seen",
+        "titleShort": "Nobody Knows the Trouble I've Seen",
+        "artists": ["Sam Cooke"],
+        "album": { "name": "The Man Who Invented Soul" }
+      },
+      {
+        "name": "Band Of Gold",
+        "titleShort": "Band Of Gold",
+        "artists": ["Mel Carter"],
+        "album": { "name": "The Best Of Mel Carter" }
+      },
+      {
+        "name": "Heartaches",
+        "titleShort": "Heartaches",
+        "artists": ["The Marcels"],
+        "album": { "name": "The Best Of The Marcels" }
+      },
+      {
+        "name": "500 Miles Away from Home",
+        "titleShort": "500 Miles Away from Home",
+        "artists": ["Bobby Bare"],
+        "album": { "name": "Super Hits" }
+      },
+      {
+        "name": "I Wanna Be The Leader",
+        "titleShort": "I Wanna Be The Leader",
+        "artists": ["The Marcels"],
+        "album": { "name": "Malt Shop Parody Songs - Doo Wop Sensations" }
+      },
+      {
+        "name": "Lollipop",
+        "titleShort": "Lollipop",
+        "artists": ["The Chordettes"],
+        "album": { "name": "Lollipop - The Best Of" }
+      },
+      {
+        "name": "This I Swear",
+        "titleShort": "This I Swear",
+        "artists": ["The Skyliners"],
+        "album": { "name": "The Skyliners: Greatest Hits" }
+      },
+      {
+        "name": "Pink Shoe Laces",
+        "titleShort": "Pink Shoe Laces",
+        "artists": ["The Chordettes"],
+        "album": { "name": "The Chordettes Sing the Hits" }
+      },
+      {
+        "name": "You Make Me Feel So Young (Remastered 1998)",
+        "titleShort": "You Make Me Feel So Young",
+        "artists": ["Frank Sinatra"],
+        "album": { "name": "Songs For Swingin' Lovers! (Remastered)" }
+      },
+      {
+        "name": "I've Got You Under My Skin (Remastered 1998)",
+        "titleShort": "I've Got You Under My Skin",
+        "artists": ["Frank Sinatra"],
+        "album": { "name": "Songs For Swingin' Lovers! (Remastered)" }
+      },
+      {
+        "name": "Come Fly With Me (Remastered 1998)",
+        "titleShort": "Come Fly With Me",
+        "artists": ["Frank Sinatra"],
+        "album": { "name": "Come Fly With Me (Expanded Edition)" }
+      },
+      {
+        "name": "Fly Me To The Moon",
+        "titleShort": "Fly Me To The Moon",
+        "artists": ["Frank Sinatra"],
+        "album": { "name": "Ultimate Sinatra" }
+      },
+      {
+        "name": "Young At Heart",
+        "titleShort": "Young At Heart",
+        "artists": ["Frank Sinatra"],
+        "album": { "name": "Ultimate Sinatra" }
+      },
+      {
+        "name": "It's A Wonderful World",
+        "titleShort": "It's A Wonderful World",
+        "artists": ["Frank Sinatra"],
+        "album": { "name": "Swing Along With Me" }
+      },
+      {
+        "name": "Beyond the Sea",
+        "titleShort": "Beyond the Sea",
+        "artists": ["Bobby Darin"],
+        "album": { "name": "The Ultimate Bobby Darin" }
+      },
+      {
+        "name": "Crazy (Single Version)",
+        "titleShort": "Crazy",
+        "artists": ["Patsy Cline"],
+        "album": { "name": "Gold" }
+      },
+      {
+        "name": "My Girl",
+        "titleShort": "My Girl",
+        "artists": ["The Temptations"],
+        "album": { "name": "The Temptations Sing Smokey" }
+      },
+      {
+        "name": "Get Ready",
+        "titleShort": "Get Ready",
+        "artists": ["The Temptations"],
+        "album": { "name": "Gettin' Ready (Expanded Edition)" }
+      },
+      {
+        "name": "(Your Love Keeps Lifting Me) Higher & Higher",
+        "titleShort": "(Your Love Keeps Lifting Me) Higher & Higher",
+        "artists": ["Jackie Wilson"],
+        "album": { "name": "Higher And Higher" }
+      },
+      {
+        "name": "I Can't Help Myself (Sugar Pie, Honey Bunch)",
+        "titleShort": "I Can't Help Myself (Sugar Pie, Honey Bunch)",
+        "artists": ["Four Tops"],
+        "album": {
+          "name": "20th Century Masters: The Millennium Collection: Best Of The Four Tops"
+        }
+      },
+      {
+        "name": "You Can't Hurry Love (Mono)",
+        "titleShort": "You Can't Hurry Love",
+        "artists": ["The Supremes"],
+        "album": { "name": "The Supremes A' Go-Go (Expanded Edition)" }
+      },
+      {
+        "name": "All I Have to Do Is Dream",
+        "titleShort": "All I Have to Do Is Dream",
+        "artists": ["The Everly Brothers"],
+        "album": { "name": "The Very Best of The Everly Brothers" }
+      },
+      {
+        "name": "Crying in the Rain",
+        "titleShort": "Crying in the Rain",
+        "artists": ["The Everly Brothers"],
+        "album": { "name": "The Golden Hits Of The Everly Brothers" }
+      },
+      {
+        "name": "Lockdown",
+        "titleShort": "Lockdown",
+        "artists": ["Simon Posford"],
+        "album": {
+          "name": "Flux & Contemplation - Portrait of an Artist in Isolation"
+        }
+      },
+      {
+        "name": "Desperado",
+        "titleShort": "Desperado",
+        "artists": ["Carpenters"],
+        "album": { "name": "Horizon" }
+      },
+      {
+        "name": "I Kept On Loving You",
+        "titleShort": "I Kept On Loving You",
+        "artists": ["Carpenters"],
+        "album": { "name": "Close To You" }
+      },
+      {
+        "name": "Help",
+        "titleShort": "Help",
+        "artists": ["Carpenters"],
+        "album": { "name": "Close To You" }
+      },
+      {
+        "name": "Everything I Own",
+        "titleShort": "Everything I Own",
+        "artists": ["Bread"],
+        "album": { "name": "Baby I'm-a Want You" }
+      },
+      {
+        "name": "You Make Me Feel Like Dancing (Remastered)",
+        "titleShort": "You Make Me Feel Like Dancing",
+        "artists": ["Leo Sayer"],
+        "album": { "name": "Endless Flight" }
+      },
+      {
+        "name": "Guitar Man",
+        "titleShort": "Guitar Man",
+        "artists": ["Bread"],
+        "album": { "name": "Guitar Man" }
+      },
+      {
+        "name": "Dismal Day",
+        "titleShort": "Dismal Day",
+        "artists": ["Bread"],
+        "album": { "name": "Anthology of Bread" }
+      },
+      {
+        "name": "Been Too Long on the Road",
+        "titleShort": "Been Too Long on the Road",
+        "artists": ["Bread"],
+        "album": { "name": "On the Waters" }
+      },
+      {
+        "name": "Papa Was A Rollin' Stone (Single Version)",
+        "titleShort": "Papa Was A Rollin' Stone",
+        "artists": ["The Temptations"],
+        "album": {
+          "name": "20th Century Masters: The Millennium Collection: Best Of The Temptations, Vol. 2 - The '70s, '80s, '90s"
+        }
+      },
+      {
+        "name": "Win Or Lose (feat. Jamel The Artist)",
+        "titleShort": "Win Or Lose (feat. Jamel The Artist)",
+        "artists": ["Kid Wise"],
+        "album": { "name": "MaMa's BabyBoy" }
+      },
+      {
+        "name": "Leaving on a Jet Plane",
+        "titleShort": "Leaving on a Jet Plane",
+        "artists": ["Peter, Paul And Mary"],
+        "album": { "name": "Album 1700" }
+      },
+      {
+        "name": "It's A Shame",
+        "titleShort": "It's A Shame",
+        "artists": ["The Spinners"],
+        "album": { "name": "2nd Time Around (Expanded Edition)" }
+      },
+      {
+        "name": "Best of My Love",
+        "titleShort": "Best of My Love",
+        "artists": ["The Emotions"],
+        "album": { "name": "Rejoice" }
+      },
+      {
+        "name": "Twilight On The Trail",
+        "titleShort": "Twilight On The Trail",
+        "artists": ["Clint Eastwood"],
+        "album": { "name": "Rawhide's Clint Eastwood Sings Cowboy Favorites" }
+      },
+      {
+        "name": "Sierra Nevada",
+        "titleShort": "Sierra Nevada",
+        "artists": ["Clint Eastwood"],
+        "album": { "name": "Rawhide's Clint Eastwood Sings Cowboy Favorites" }
+      },
+      {
+        "name": "Searching For Somewhere",
+        "titleShort": "Searching For Somewhere",
+        "artists": ["Clint Eastwood"],
+        "album": { "name": "Rawhide's Clint Eastwood Sings Cowboy Favorites" }
+      },
+      {
+        "name": "Harvest Moon",
+        "titleShort": "Harvest Moon",
+        "artists": ["Neil Young"],
+        "album": { "name": "Harvest Moon" }
+      },
+      {
+        "name": "Motorcycle",
+        "titleShort": "Motorcycle",
+        "artists": ["Colter Wall"],
+        "album": { "name": "Colter Wall" }
+      },
+      {
+        "name": "Cattle Call",
+        "titleShort": "Cattle Call",
+        "artists": ["Eddy Arnold"],
+        "album": { "name": "Cattle Call" }
+      },
+      {
+        "name": "The Partisan",
+        "titleShort": "The Partisan",
+        "artists": ["Leonard Cohen"],
+        "album": { "name": "Songs From A Room" }
+      },
+      {
+        "name": "Houston",
+        "titleShort": "Houston",
+        "artists": ["Dean Martin"],
+        "album": { "name": "The Essential Dean Martin" }
+      },
+      {
+        "name": "Allison Road",
+        "titleShort": "Allison Road",
+        "artists": ["Gin Blossoms"],
+        "album": { "name": "New Miserable Experience" }
+      }
+    ]
+  },
+  {
+    "playlistName": "Passenger – Runaway (Deluxe) 2",
+    "nb_tracks": 9,
+    "trackData": [
+      {
+        "name": "Hell Or High Water",
+        "titleShort": "Hell Or High Water",
+        "artists": ["Passenger"],
+        "album": { "name": "Runaway (Deluxe)" }
+      },
+      {
+        "name": "Why Can't I Change",
+        "titleShort": "Why Can't I Change",
+        "artists": ["Passenger"],
+        "album": { "name": "Runaway (Deluxe)" }
+      },
+      {
+        "name": "Heart To Love",
+        "titleShort": "Heart To Love",
+        "artists": ["Passenger"],
+        "album": { "name": "Runaway (Deluxe)" }
+      },
+      {
+        "name": "Let's Go (Live from Trough Rd, State Bridge, CO)",
+        "titleShort": "Let's Go",
+        "artists": ["Passenger"],
+        "album": { "name": "Runaway (Deluxe)" }
+      },
+      {
+        "name": "Ghost Town (Live from Michigan Theatre, Detroit, MI)",
+        "titleShort": "Ghost Town",
+        "artists": ["Passenger"],
+        "album": { "name": "Runaway (Deluxe)" }
+      },
+      {
+        "name": "Runaway",
+        "titleShort": "Runaway",
+        "artists": ["Passenger"],
+        "album": { "name": "Runaway (Deluxe)" }
+      },
+      {
+        "name": "Eagle Bear Buffalo (Live from Canaan Mountain Wilderness Area, UT)",
+        "titleShort": "Eagle Bear Buffalo",
+        "artists": ["Passenger"],
+        "album": { "name": "Runaway (Deluxe)" }
+      },
+      {
+        "name": "To Be Free",
+        "titleShort": "To Be Free",
+        "artists": ["Passenger"],
+        "album": { "name": "Runaway (Deluxe)" }
+      },
+      {
+        "name": "Survivors",
+        "titleShort": "Survivors",
+        "artists": ["Passenger"],
+        "album": { "name": "Runaway (Deluxe)" }
+      }
+    ]
+  },
+  { "playlistName": "Philosophy", "nb_tracks": 0, "trackData": [] },
+  { "playlistName": "Radical Face", "nb_tracks": 0, "trackData": [] },
+  {
+    "playlistName": "Refined",
+    "nb_tracks": 31,
+    "trackData": [
+      {
+        "name": "The Angels Cried (with Alison Krauss)",
+        "titleShort": "The Angels Cried (with Alison Krauss)",
+        "artists": ["Alan Jackson"],
+        "album": { "name": "Honky Tonk Christmas" }
+      },
+      {
+        "name": "Winter Wonderland",
+        "titleShort": "Winter Wonderland",
+        "artists": ["Martina McBride"],
+        "album": { "name": "White Christmas" }
+      },
+      {
+        "name": "I'll Be Home For Christmas",
+        "titleShort": "I'll Be Home For Christmas",
+        "artists": ["Lady A"],
+        "album": { "name": "On This Winter's Night (Deluxe)" }
+      },
+      {
+        "name": "The First Noel",
+        "titleShort": "The First Noel",
+        "artists": ["Lady A"],
+        "album": { "name": "On This Winter's Night (Deluxe)" }
+      },
+      {
+        "name": "On This Winter's Night",
+        "titleShort": "On This Winter's Night",
+        "artists": ["Lady A"],
+        "album": { "name": "On This Winter's Night (Deluxe)" }
+      },
+      {
+        "name": "In the Bleak Midwinter",
+        "titleShort": "In the Bleak Midwinter",
+        "artists": ["Wylie Gustafson"],
+        "album": { "name": "Christmas for Cowboys" }
+      },
+      {
+        "name": "Mary, Did You Know?",
+        "titleShort": "Mary, Did You Know?",
+        "artists": ["Pentatonix"],
+        "album": { "name": "That's Christmas To Me (Deluxe Edition)" }
+      },
+      {
+        "name": "Silent Night",
+        "titleShort": "Silent Night",
+        "artists": ["Pentatonix"],
+        "album": { "name": "That's Christmas To Me (Deluxe Edition)" }
+      },
+      {
+        "name": "Oh come, Oh come Emmanuel",
+        "titleShort": "Oh come, Oh come Emmanuel",
+        "artists": ["Cór na Nollag"],
+        "album": { "name": "Christmas in the style of Enya" }
+      },
+      {
+        "name": "White Christmas (feat. The Manhattan Transfer)",
+        "titleShort": "White Christmas (feat. The Manhattan Transfer)",
+        "artists": ["Pentatonix"],
+        "album": { "name": "A Pentatonix Christmas Deluxe" }
+      },
+      {
+        "name": "Little Drummer Boy",
+        "titleShort": "Little Drummer Boy",
+        "artists": ["Pentatonix"],
+        "album": { "name": "PTXmas (Deluxe Edition)" }
+      },
+      {
+        "name": "The Darkest Midnight In December",
+        "titleShort": "The Darkest Midnight In December",
+        "artists": ["David Arkenstone"],
+        "album": { "name": "Winter Fantasy" }
+      },
+      {
+        "name": "I Wonder as I Wander",
+        "titleShort": "I Wonder as I Wander",
+        "artists": ["Audrey Assad"],
+        "album": { "name": "Inheritance (Deluxe Edition)" }
+      },
+      {
+        "name": "An Old Fashioned Christmas",
+        "titleShort": "An Old Fashioned Christmas",
+        "artists": ["Frank Sinatra"],
+        "album": { "name": "Ultimate Christmas" }
+      },
+      {
+        "name": "God Rest Ye Merry Gentlemen",
+        "titleShort": "God Rest Ye Merry Gentlemen",
+        "artists": ["Bing Crosby"],
+        "album": { "name": "White Christmas" }
+      },
+      {
+        "name": "What Child Is This / Child of the Poor",
+        "titleShort": "What Child Is This / Child of the Poor",
+        "artists": ["The Hound + The Fox"],
+        "album": { "name": "What Child Is This / Child of the Poor" }
+      },
+      {
+        "name": "Watching the Pines",
+        "titleShort": "Watching the Pines",
+        "artists": ["Mustard's Retreat"],
+        "album": { "name": "Back to Back" }
+      },
+      {
+        "name": "Gje Meg Handa Di Venn",
+        "titleShort": "Gje Meg Handa Di Venn",
+        "artists": ["Kurt Nilsen"],
+        "album": { "name": "Have Yourself A Merry Little Christmas" }
+      },
+      {
+        "name": "Breath of Heaven",
+        "titleShort": "Breath of Heaven",
+        "artists": ["The Hound + The Fox"],
+        "album": { "name": "Songs of Winter" }
+      },
+      {
+        "name": "What Child Is This / Child of the Poor",
+        "titleShort": "What Child Is This / Child of the Poor",
+        "artists": ["The Hound + The Fox"],
+        "album": { "name": "Songs of Winter" }
+      },
+      {
+        "name": "Home for Christmas",
+        "titleShort": "Home for Christmas",
+        "artists": ["Maria Mena"],
+        "album": { "name": "Home For Christmas" }
+      },
+      {
+        "name": "I Wonder as I Wander",
+        "titleShort": "I Wonder as I Wander",
+        "artists": ["Future Of Forestry"],
+        "album": { "name": "Light Has Come: Christmas" }
+      },
+      {
+        "name": "Little Child of Mary",
+        "titleShort": "Little Child of Mary",
+        "artists": ["Sarah Sparks"],
+        "album": { "name": "Little Child of Mary" }
+      },
+      {
+        "name": "Hymne des Fraternisés: I'm dreaming of home",
+        "titleShort": "Hymne des Fraternisés: I'm dreaming of home",
+        "artists": ["London Symphony Orchestra"],
+        "album": { "name": "Joyeux Noël (Original Soundtrack)" }
+      },
+      {
+        "name": "Snowman",
+        "titleShort": "Snowman",
+        "artists": ["The Hound + The Fox"],
+        "album": { "name": "Snowman" }
+      },
+      {
+        "name": "This Christmas Night (feat. Dia Frampton)",
+        "titleShort": "This Christmas Night (feat. Dia Frampton)",
+        "artists": ["Kaskade"],
+        "album": { "name": "Kaskade Christmas Deluxe" }
+      },
+      {
+        "name": "In the Bleak Midwinter (feat. Kayrae)",
+        "titleShort": "In the Bleak Midwinter (feat. Kayrae)",
+        "artists": ["Kaskade"],
+        "album": { "name": "Kaskade Christmas Deluxe" }
+      },
+      {
+        "name": "Cold December",
+        "titleShort": "Cold December",
+        "artists": ["Kaskade"],
+        "album": { "name": "Kaskade Christmas Deluxe" }
+      },
+      {
+        "name": "Silent Night (feat. Ilsey)",
+        "titleShort": "Silent Night (feat. Ilsey)",
+        "artists": ["Kaskade"],
+        "album": { "name": "Kaskade Christmas Deluxe" }
+      },
+      {
+        "name": "It's Beginning to Snow",
+        "titleShort": "It's Beginning to Snow",
+        "artists": ["Kaskade"],
+        "album": { "name": "Kaskade Christmas Deluxe" }
+      },
+      {
+        "name": "Winter Wonderland",
+        "titleShort": "Winter Wonderland",
+        "artists": ["Kaskade"],
+        "album": { "name": "Kaskade Christmas Deluxe" }
+      }
+    ]
+  },
+  { "playlistName": "Rega Jams", "nb_tracks": 0, "trackData": [] },
+  {
+    "playlistName": "Rock",
+    "nb_tracks": 73,
+    "trackData": [
+      {
+        "name": "Where Did The Angels Go",
+        "titleShort": "Where Did The Angels Go",
+        "artists": ["Papa Roach"],
+        "album": { "name": "The Connection" }
+      },
+      {
+        "name": "Wish You Never Met Me",
+        "titleShort": "Wish You Never Met Me",
+        "artists": ["Papa Roach"],
+        "album": { "name": "The Connection" }
+      },
+      {
+        "name": "As Far As I Remember",
+        "titleShort": "As Far As I Remember",
+        "artists": ["Papa Roach"],
+        "album": { "name": "The Connection" }
+      },
+      {
+        "name": "New Divide",
+        "titleShort": "New Divide",
+        "artists": ["Linkin Park"],
+        "album": { "name": "Transformers: Revenge Of The Fallen The Album" }
+      },
+      {
+        "name": "BURN IT DOWN",
+        "titleShort": "BURN IT DOWN",
+        "artists": ["Linkin Park"],
+        "album": { "name": "LIVING THINGS" }
+      },
+      {
+        "name": "It's Not Over",
+        "titleShort": "It's Not Over",
+        "artists": ["Daughtry"],
+        "album": { "name": "Daughtry" }
+      },
+      {
+        "name": "Life is Beautiful",
+        "titleShort": "Life is Beautiful",
+        "artists": ["Sixx:A.M."],
+        "album": { "name": "The Heroin Diaries Soundtrack" }
+      },
+      {
+        "name": "Still Swingin'",
+        "titleShort": "Still Swingin'",
+        "artists": ["Papa Roach"],
+        "album": { "name": "The Connection" }
+      },
+      {
+        "name": "As You Go",
+        "titleShort": "As You Go",
+        "artists": ["Red"],
+        "album": { "name": "Release The Panic" }
+      },
+      {
+        "name": "Love Will Leave A Mark",
+        "titleShort": "Love Will Leave A Mark",
+        "artists": ["Red"],
+        "album": { "name": "Release The Panic" }
+      },
+      {
+        "name": "Not Meant to Be",
+        "titleShort": "Not Meant to Be",
+        "artists": ["Theory Of A Deadman"],
+        "album": { "name": "Transformers: Revenge Of The Fallen The Album" }
+      },
+      {
+        "name": "Enemies",
+        "titleShort": "Enemies",
+        "artists": ["Shinedown"],
+        "album": { "name": "Amaryllis" }
+      },
+      {
+        "name": "A Warrior's Call",
+        "titleShort": "A Warrior's Call",
+        "artists": ["Volbeat"],
+        "album": { "name": "Beyond Hell / Above Heaven" }
+      },
+      {
+        "name": "My Heart Is Broken",
+        "titleShort": "My Heart Is Broken",
+        "artists": ["Evanescence"],
+        "album": { "name": "Evanescence (Deluxe Version)" }
+      },
+      {
+        "name": "Sweet Sacrifice",
+        "titleShort": "Sweet Sacrifice",
+        "artists": ["Evanescence"],
+        "album": { "name": "The Open Door" }
+      },
+      {
+        "name": "The High Road",
+        "titleShort": "The High Road",
+        "artists": ["Three Days Grace"],
+        "album": { "name": "Transit Of Venus" }
+      },
+      {
+        "name": "Save Me from Myself",
+        "titleShort": "Save Me from Myself",
+        "artists": ["Brian \"Head\" Welch"],
+        "album": { "name": "Save Me from Myself" }
+      },
+      {
+        "name": "Home",
+        "titleShort": "Home",
+        "artists": ["Fades Away"],
+        "album": { "name": "Perceptions" }
+      },
+      {
+        "name": "Citadel",
+        "titleShort": "Citadel",
+        "artists": ["Write This Down"],
+        "album": { "name": "Write This Down" }
+      },
+      {
+        "name": "Crash And Burn",
+        "titleShort": "Crash And Burn",
+        "artists": ["Write This Down"],
+        "album": { "name": "Lost Weekend" }
+      },
+      {
+        "name": "War Is The Answer",
+        "titleShort": "War Is The Answer",
+        "artists": ["Five Finger Death Punch"],
+        "album": { "name": "War Is The Answer" }
+      },
+      {
+        "name": "Far From Home",
+        "titleShort": "Far From Home",
+        "artists": ["Five Finger Death Punch"],
+        "album": { "name": "War Is the Answer" }
+      },
+      {
+        "name": "War of Change",
+        "titleShort": "War of Change",
+        "artists": ["Thousand Foot Krutch"],
+        "album": { "name": "The End Is Where We Begin" }
+      },
+      {
+        "name": "Fine Again",
+        "titleShort": "Fine Again",
+        "artists": ["Seether"],
+        "album": { "name": "Disclaimer II" }
+      },
+      {
+        "name": "Breakdown",
+        "titleShort": "Breakdown",
+        "artists": ["Seether"],
+        "album": {
+          "name": "Finding Beauty In Negative Spaces (Bonus Track Version)"
+        }
+      },
+      {
+        "name": "Home",
+        "titleShort": "Home",
+        "artists": ["Daughtry"],
+        "album": { "name": "Daughtry" }
+      },
+      {
+        "name": "Patience",
+        "titleShort": "Patience",
+        "artists": ["Nick Lachey"],
+        "album": { "name": "Patience" }
+      },
+      {
+        "name": "Not Gonna Die",
+        "titleShort": "Not Gonna Die",
+        "artists": ["Skillet"],
+        "album": { "name": "Not Gonna Die" }
+      },
+      {
+        "name": "Can't Wait For Christmas",
+        "titleShort": "Can't Wait For Christmas",
+        "artists": ["TobyMac"],
+        "album": { "name": "Light Of Christmas" }
+      },
+      {
+        "name": "Be My Escape",
+        "titleShort": "Be My Escape",
+        "artists": ["Relient K"],
+        "album": { "name": "Mmhmm" }
+      },
+      {
+        "name": "Courtesy Call",
+        "titleShort": "Courtesy Call",
+        "artists": ["Thousand Foot Krutch"],
+        "album": { "name": "The End Is Where We Begin" }
+      },
+      {
+        "name": "Hall of Fame (feat. will.i.am)",
+        "titleShort": "Hall of Fame (feat. will.i.am)",
+        "artists": ["The Script"],
+        "album": { "name": "Hall of Fame" }
+      },
+      {
+        "name": "Painkiller",
+        "titleShort": "Painkiller",
+        "artists": ["Three Days Grace"],
+        "album": { "name": "Painkiller" }
+      },
+      {
+        "name": "I Am Machine",
+        "titleShort": "I Am Machine",
+        "artists": ["Three Days Grace"],
+        "album": { "name": "I Am Machine" }
+      },
+      {
+        "name": "Never Too Late",
+        "titleShort": "Never Too Late",
+        "artists": ["Three Days Grace"],
+        "album": { "name": "One-X" }
+      },
+      {
+        "name": "Animal I Have Become",
+        "titleShort": "Animal I Have Become",
+        "artists": ["Three Days Grace"],
+        "album": { "name": "One-X" }
+      },
+      {
+        "name": "Paint the Town Green",
+        "titleShort": "Paint the Town Green",
+        "artists": ["The Script"],
+        "album": { "name": "No Sound Without Silence" }
+      },
+      {
+        "name": "My Disaster",
+        "titleShort": "My Disaster",
+        "artists": ["Seether"],
+        "album": { "name": "Isolate And Medicate" }
+      },
+      {
+        "name": "Holding on to Heaven",
+        "titleShort": "Holding on to Heaven",
+        "artists": ["Nickelback"],
+        "album": { "name": "Here and Now" }
+      },
+      {
+        "name": "When We Stand Together",
+        "titleShort": "When We Stand Together",
+        "artists": ["Nickelback"],
+        "album": { "name": "Here and Now" }
+      },
+      {
+        "name": "Utopia",
+        "titleShort": "Utopia",
+        "artists": ["Daughtry"],
+        "album": { "name": "Utopia" }
+      },
+      {
+        "name": "Face Everything And Rise",
+        "titleShort": "Face Everything And Rise",
+        "artists": ["Papa Roach"],
+        "album": { "name": "Face Everything And Rise" }
+      },
+      {
+        "name": "Alarm The Alarm",
+        "titleShort": "Alarm The Alarm",
+        "artists": ["Write This Down"],
+        "album": { "name": "Write This Down" }
+      },
+      {
+        "name": "Artillery",
+        "titleShort": "Artillery",
+        "artists": ["Infected Mushroom"],
+        "album": { "name": "Vicious Delicious" }
+      },
+      {
+        "name": "Du hast",
+        "titleShort": "Du hast",
+        "artists": ["Rammstein"],
+        "album": { "name": "Sehnsucht" }
+      },
+      {
+        "name": "Ashes of Eden",
+        "titleShort": "Ashes of Eden",
+        "artists": ["Breaking Benjamin"],
+        "album": { "name": "Dark Before Dawn" }
+      },
+      {
+        "name": "Failure",
+        "titleShort": "Failure",
+        "artists": ["Breaking Benjamin"],
+        "album": { "name": "Dark Before Dawn" }
+      },
+      {
+        "name": "Unknown Soldier",
+        "titleShort": "Unknown Soldier",
+        "artists": ["Breaking Benjamin"],
+        "album": { "name": "Phobia (Explicit Version)" }
+      },
+      {
+        "name": "Follow (Radio Edit)",
+        "titleShort": "Follow",
+        "artists": ["Breaking Benjamin"],
+        "album": { "name": "We Are Not Alone" }
+      },
+      {
+        "name": "How Did You Love",
+        "titleShort": "How Did You Love",
+        "artists": ["Shinedown"],
+        "album": { "name": "Threat to Survival" }
+      },
+      {
+        "name": "Eye Of The Storm",
+        "titleShort": "Eye Of The Storm",
+        "artists": ["Watt White"],
+        "album": { "name": "Eye Of The Storm" }
+      },
+      {
+        "name": "Blood // Water",
+        "titleShort": "Blood // Water",
+        "artists": ["grandson"],
+        "album": { "name": "Blood // Water" }
+      },
+      {
+        "name": "Broken",
+        "titleShort": "Broken",
+        "artists": ["Seether"],
+        "album": { "name": "Disclaimer II" }
+      },
+      {
+        "name": "Alone",
+        "titleShort": "Alone",
+        "artists": ["I Prevail"],
+        "album": { "name": "Lifelines" }
+      },
+      {
+        "name": "Paranoid",
+        "titleShort": "Paranoid",
+        "artists": ["I Prevail"],
+        "album": { "name": "TRAUMA" }
+      },
+      {
+        "name": "Johnny Cash (Stripped)",
+        "titleShort": "Johnny Cash",
+        "artists": ["Wage War"],
+        "album": { "name": "Johnny Cash (Stripped)" }
+      },
+      {
+        "name": "Zombie",
+        "titleShort": "Zombie",
+        "artists": ["Bad Wolves"],
+        "album": { "name": "Zombie" }
+      },
+      {
+        "name": "Serkland",
+        "titleShort": "Serkland",
+        "artists": ["Leaves' Eyes"],
+        "album": { "name": "Serkland" }
+      },
+      {
+        "name": "Heroes of the Dawn",
+        "titleShort": "Heroes of the Dawn",
+        "artists": ["Visions of Atlantis"],
+        "album": { "name": "Wanderers" }
+      },
+      {
+        "name": "April Rain",
+        "titleShort": "April Rain",
+        "artists": ["Delain"],
+        "album": { "name": "April Rain" }
+      },
+      {
+        "name": "Alpenglow",
+        "titleShort": "Alpenglow",
+        "artists": ["Nightwish"],
+        "album": { "name": "Endless Forms Most Beautiful (Deluxe Version)" }
+      },
+      {
+        "name": "Sever",
+        "titleShort": "Sever",
+        "artists": ["Red"],
+        "album": { "name": "Sever" }
+      },
+      {
+        "name": "Tourniquet (Aurora Version)",
+        "titleShort": "Tourniquet",
+        "artists": ["Breaking Benjamin"],
+        "album": { "name": "Aurora" }
+      },
+      {
+        "name": "Torn in Two (Aurora Version)",
+        "titleShort": "Torn in Two",
+        "artists": ["Breaking Benjamin"],
+        "album": { "name": "Aurora" }
+      },
+      {
+        "name": "Far Away",
+        "titleShort": "Far Away",
+        "artists": ["Breaking Benjamin"],
+        "album": { "name": "Aurora" }
+      },
+      {
+        "name": "Hurricane",
+        "titleShort": "Hurricane",
+        "artists": ["I Prevail"],
+        "album": { "name": "TRAUMA" }
+      },
+      {
+        "name": "Bow Down",
+        "titleShort": "Bow Down",
+        "artists": ["I Prevail"],
+        "album": { "name": "TRAUMA" }
+      },
+      {
+        "name": "Breaking Down",
+        "titleShort": "Breaking Down",
+        "artists": ["I Prevail"],
+        "album": { "name": "TRAUMA" }
+      },
+      {
+        "name": "Rise Above It",
+        "titleShort": "Rise Above It",
+        "artists": ["I Prevail"],
+        "album": { "name": "TRAUMA" }
+      },
+      {
+        "name": "My Heart I Surrender",
+        "titleShort": "My Heart I Surrender",
+        "artists": ["I Prevail"],
+        "album": { "name": "Lifelines" }
+      },
+      {
+        "name": "Popular Monster",
+        "titleShort": "Popular Monster",
+        "artists": ["Falling in Reverse"],
+        "album": { "name": "Popular Monster" }
+      },
+      {
+        "name": "Riptide",
+        "titleShort": "Riptide",
+        "artists": ["grandson"],
+        "album": { "name": "Riptide" }
+      },
+      {
+        "name": "Wolf Totem",
+        "titleShort": "Wolf Totem",
+        "artists": ["The HU"],
+        "album": { "name": "The Gereg (Deluxe Edition)" }
+      }
+    ]
+  },
+  {
+    "playlistName": "Roo Panes",
+    "nb_tracks": 24,
+    "trackData": [
+      {
+        "name": "Know Me Well",
+        "titleShort": "Know Me Well",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Little Giant" }
+      },
+      {
+        "name": "Indigo Home",
+        "titleShort": "Indigo Home",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Little Giant" }
+      },
+      {
+        "name": "Deeper Than Shallow",
+        "titleShort": "Deeper Than Shallow",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Little Giant" }
+      },
+      {
+        "name": "Tiger Striped Sky",
+        "titleShort": "Tiger Striped Sky",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Little Giant" }
+      },
+      {
+        "name": "Home From Home",
+        "titleShort": "Home From Home",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Little Giant" }
+      },
+      {
+        "name": "Different Child",
+        "titleShort": "Different Child",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Little Giant" }
+      },
+      {
+        "name": "Hands",
+        "titleShort": "Hands",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Little Giant" }
+      },
+      {
+        "name": "How Long",
+        "titleShort": "How Long",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Little Giant" }
+      },
+      {
+        "name": "Ran Before The Storm",
+        "titleShort": "Ran Before The Storm",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Little Giant" }
+      },
+      {
+        "name": "Stay With Me",
+        "titleShort": "Stay With Me",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Paperweights" }
+      },
+      {
+        "name": "Corner Of My Eye",
+        "titleShort": "Corner Of My Eye",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Paperweights" }
+      },
+      {
+        "name": "The Original",
+        "titleShort": "The Original",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Paperweights" }
+      },
+      {
+        "name": "Lullaby Love",
+        "titleShort": "Lullaby Love",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Paperweights" }
+      },
+      {
+        "name": "Paperweights",
+        "titleShort": "Paperweights",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Paperweights" }
+      },
+      {
+        "name": "Water Over Fire",
+        "titleShort": "Water Over Fire",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Paperweights" }
+      },
+      {
+        "name": "Vanished Into Everything",
+        "titleShort": "Vanished Into Everything",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Paperweights" }
+      },
+      {
+        "name": "I Was Here",
+        "titleShort": "I Was Here",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Paperweights" }
+      },
+      {
+        "name": "Summer Thunder",
+        "titleShort": "Summer Thunder",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Paperweights" }
+      },
+      {
+        "name": "Where I Want To Go",
+        "titleShort": "Where I Want To Go",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Paperweights" }
+      },
+      {
+        "name": "Little Giant (EP Version)",
+        "titleShort": "Little Giant",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Land Of The Living EP" }
+      },
+      {
+        "name": "Mistral (EP Version)",
+        "titleShort": "Mistral",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Once EP" }
+      },
+      {
+        "name": "Weight Of Your World (EP Version)",
+        "titleShort": "Weight Of Your World",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Weight Of Your World EP" }
+      },
+      {
+        "name": "Sing For The Wind (EP Version)",
+        "titleShort": "Sing For The Wind",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Weight Of Your World EP" }
+      },
+      {
+        "name": "I'll Move Mountains (EP Version)",
+        "titleShort": "I'll Move Mountains",
+        "artists": ["Roo Panes"],
+        "album": { "name": "Once EP" }
+      }
+    ]
+  }
+]
