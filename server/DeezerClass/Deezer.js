@@ -46,7 +46,7 @@ export default class Deezer {
       throw Error(err);
     }
     console.log(this.tracks);
-    TODO: //Bring this back in for testing// this.addData()
+    // TODO: //Bring this back in for testingd // this.addData()
   }
 
   async createPlaylistAddTracks(){
