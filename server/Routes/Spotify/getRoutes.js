@@ -33,7 +33,7 @@ router.get("/", async (req, res) => {
        await spotifyTracks.setTracks(trackData.data)
        playlistsWithSongs.push(spotifyTracks)
     }
-    // fs.writeFileSync("./spotifyData.json",JSON.stringify(playlistsWithSongs))
+    fs.writeFileSync("./spotifyData.json",JSON.stringify(playlistsWithSongs))
     res.json(playlistsWithSongs);
   } catch (err) {
     console.log(err);
